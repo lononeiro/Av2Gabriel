@@ -10,7 +10,7 @@ public partial class Entrada
     public int ProdutoIdProduto { get; set; }
 
     public DateTime DataEntrada { get; set; }
-
+    public string DescricaoEntrada { get; set; } = null!;
     public double PrecoCompra { get; set; }
 
     public int QuantidadeEntrada { get; set; }

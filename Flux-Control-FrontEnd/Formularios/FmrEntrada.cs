@@ -67,12 +67,24 @@ namespace Flux_Control_prototipo.Formularios
                 MessageBox.Show("Preços devem ser valores numéricos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+                EntradaRepository entradaRepository = new EntradaRepository(new DbFluxControlContext());
+                EstoqueRepository estoqueRepository = new EstoqueRepository(new DbFluxControlContext());
+
+            var oEntrada = entradaRepository.SelecionarPeloLote((int)ComboBoxProdutos.SelectedValue, int.Parse(TxtLote.Text));
+            if (oEntrada != null)
+            {
+                MessageBox.Show("Lote já cadastrado.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+
             try
             {
 
             int produtoId = (int)ComboBoxProdutos.SelectedValue;
             Entrada entrada = new Entrada
             {
+                DescricaoEntrada = TxtDescricao.Text,
                 ProdutoIdProduto = produtoId,
                 QuantidadeEntrada = int.Parse(TxtQuantidade.Text),
                 PrecoCompra = (double)precoCompra,
@@ -81,8 +93,6 @@ namespace Flux_Control_prototipo.Formularios
                 Lote = int.Parse(TxtLote.Text)
             };
 
-                EntradaRepository entradaRepository = new EntradaRepository(new DbFluxControlContext());
-                EstoqueRepository estoqueRepository = new EstoqueRepository(new DbFluxControlContext());
 
 
                 if (!int.TryParse(TxtLote.Text, out int lote))
@@ -114,6 +124,7 @@ namespace Flux_Control_prototipo.Formularios
             {
                 MessageBox.Show($"Erro ao registrar entrada: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            }
         }
 
         private void LimparCampos()
@@ -123,7 +134,7 @@ namespace Flux_Control_prototipo.Formularios
             TxtQuantidade.Clear();
             TxtPrecoCompra.Clear();
             TxtPrecoVenda.Clear();
-            TxtLote.Clear();  // Limpa o campo "Lote"
+            TxtLote.Clear();
         }
 
         private void label5_Click(object sender, EventArgs e)

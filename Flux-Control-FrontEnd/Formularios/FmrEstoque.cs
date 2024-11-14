@@ -21,6 +21,8 @@ namespace Flux_Control_prototipo.Formularios
 
         ProdutoRepository produtoRepository = new ProdutoRepository(new DbFluxControlContext());
         EstoqueRepository estoqueRepository = new EstoqueRepository(new DbFluxControlContext());
+        EntradaRepository entradaRepository = new EntradaRepository(new DbFluxControlContext());
+        SaidaRepository saidaRepository = new SaidaRepository(new DbFluxControlContext());
 
         private Estoque estoqueSelecionado;
         bool _incluir = true;
@@ -189,9 +191,18 @@ namespace Flux_Control_prototipo.Formularios
                                 Estoque estoque = estoqueRepository.SelecionarPelaChave(id);
                                 if (estoque != null)
                                 {
+                                    var entrada = entradaRepository.SelecionarPeloLote(estoque.ProdutoIdProduto, estoque.LoteEstoque);
+                                    var saida = saidaRepository.SelecionarPeloLote(estoque.ProdutoIdProduto, estoque.LoteEstoque);
+
+                                    if (saida != null)
+                                    {
+                                        saidaRepository.Excluir(saida);
+                                    }
                                     estoqueRepository.Excluir(estoque);
-                                    CarregaGrid();
+                                    entradaRepository.Excluir(entrada);
+
                                     MessageBox.Show("Produto excluído com sucesso.");
+                                    CarregaGrid();
                                 }
                                 else
                                 {

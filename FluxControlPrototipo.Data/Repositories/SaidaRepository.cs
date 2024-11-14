@@ -52,5 +52,14 @@ namespace FluxControl.Data.Repositories
                 throw new InvalidOperationException("Quantidade insuficiente no estoque.");
             }
         }
+        public Saida SelecionarPeloLote(int produtoId, int lote)
+        {
+            return db.Saida.FirstOrDefault(e => e.ProdutoIdProduto == produtoId && e.LoteSaida == lote);
+        }
+        public void Excluir(Saida oSaida)
+        {
+            db.Entry(oSaida).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
+            db.SaveChanges();
+        }
     } 
     }

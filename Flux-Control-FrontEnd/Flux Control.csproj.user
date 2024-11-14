@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Formularios\FmrCadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FmrCadastrarTipoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FmrEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FmrCadastrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FmrEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FmrLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FmrRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FmrSaida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

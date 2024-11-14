@@ -1,0 +1,29 @@
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\bin\Debug\net8.0\FluxControl.Data.deps.json
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\bin\Debug\net8.0\FluxControl.Data.runtimeconfig.json
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\bin\Debug\net8.0\FluxControl.Data.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\bin\Debug\net8.0\FluxControl.Data.pdb
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.csproj.AssemblyReference.cache
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.AssemblyInfoInputs.cache
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.AssemblyInfo.cs
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.csproj.CoreCompileInputs.cache
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\refint\FluxControl.Data.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.pdb
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.genruntimeconfig.cache
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\ref\FluxControl.Data.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.sourcelink.json
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\bin\Debug\net8.0\FluxControl.Data.deps.json
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\bin\Debug\net8.0\FluxControl.Data.runtimeconfig.json
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\bin\Debug\net8.0\FluxControl.Data.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\bin\Debug\net8.0\FluxControl.Data.pdb
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.csproj.AssemblyReference.cache
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.AssemblyInfoInputs.cache
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.AssemblyInfo.cs
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.csproj.CoreCompileInputs.cache
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\refint\FluxControl.Data.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.pdb
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.genruntimeconfig.cache
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\ref\FluxControl.Data.dll

@@ -1,0 +1,292 @@
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Flux Control.exe
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Flux Control.deps.json
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Flux Control.runtimeconfig.json
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Flux Control.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Flux Control.pdb
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.csproj.AssemblyReference.cache
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrCadastrarProdutos.resources
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrCadastrarUsuario.resources
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrEntrada.resources
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrLogin.resources
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrRelatorio.resources
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrSaida.resources
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.csproj.GenerateResource.cache
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.AssemblyInfoInputs.cache
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.AssemblyInfo.cs
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.csproj.CoreCompileInputs.cache
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.sourcelink.json
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Con.C86C0D49.Up2Date
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\refint\Flux Control.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.pdb
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux Control.genruntimeconfig.cache
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\ref\Flux Control.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\FluxControl.Data.dll
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\bin\Debug\net8.0-windows\FluxControl.Data.pdb
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrEstoque.resources
+C:\Users\Coord.Info\Documents\Flux Control(Lucas)\Flux Control prototipo27do09\Flux Control prototipo\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrCadastrarTipoProduto.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Flux Control.exe
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Flux Control.deps.json
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Flux Control.runtimeconfig.json
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Flux Control.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Flux Control.pdb
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Humanizer.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\FluxControl.Data.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\bin\Debug\net8.0-windows\FluxControl.Data.pdb
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.csproj.AssemblyReference.cache
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrCadastrarProdutos.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrCadastrarTipoProduto.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrCadastrarUsuario.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrEntrada.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrEstoque.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrLogin.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrRelatorio.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrSaida.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.csproj.GenerateResource.cache
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.GeneratedMSBuildEditorConfig.editorconfig
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.AssemblyInfoInputs.cache
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.AssemblyInfo.cs
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.csproj.CoreCompileInputs.cache
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.sourcelink.json
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Con.C86C0D49.Up2Date
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\refint\Flux Control.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.pdb
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.genruntimeconfig.cache
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\ref\Flux Control.dll

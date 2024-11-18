@@ -42,3 +42,4 @@ C:\Users\Coord.Info\Desktop\Lucas\Av2Gabriel\FluxControlPrototipo.Data\obj\Debug
 C:\Users\Coord.Info\Desktop\Lucas\Av2Gabriel\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.pdb
 C:\Users\Coord.Info\Desktop\Lucas\Av2Gabriel\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.genruntimeconfig.cache
 C:\Users\Coord.Info\Desktop\Lucas\Av2Gabriel\FluxControlPrototipo.Data\obj\Debug\net8.0\ref\FluxControl.Data.dll
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\FluxControlPrototipo.Data\obj\Debug\net8.0\FluxControl.Data.sourcelink.json

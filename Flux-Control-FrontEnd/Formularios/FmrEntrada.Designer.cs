@@ -47,6 +47,9 @@
             label2 = new Label();
             TxtQuantidade = new TextBox();
             TxtDescricao = new TextBox();
+            label9 = new Label();
+            dtpDataEntrada = new DateTimePicker();
+            CheckBoxAgora = new CheckBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -86,6 +89,9 @@
             panel1.Anchor = AnchorStyles.Top;
             panel1.BackColor = Color.MistyRose;
             panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(CheckBoxAgora);
+            panel1.Controls.Add(dtpDataEntrada);
+            panel1.Controls.Add(label9);
             panel1.Controls.Add(DtpDataValidade);
             panel1.Controls.Add(label8);
             panel1.Controls.Add(label7);
@@ -104,7 +110,7 @@
             panel1.Controls.Add(TxtDescricao);
             panel1.Location = new Point(34, 73);
             panel1.Name = "panel1";
-            panel1.Size = new Size(380, 379);
+            panel1.Size = new Size(380, 488);
             panel1.TabIndex = 10;
             // 
             // DtpDataValidade
@@ -152,7 +158,7 @@
             BtnEncerrar.BackColor = Color.LightCoral;
             BtnEncerrar.Cursor = Cursors.Hand;
             BtnEncerrar.FlatStyle = FlatStyle.Flat;
-            BtnEncerrar.Location = new Point(193, 324);
+            BtnEncerrar.Location = new Point(193, 413);
             BtnEncerrar.Name = "BtnEncerrar";
             BtnEncerrar.Size = new Size(86, 37);
             BtnEncerrar.TabIndex = 14;
@@ -165,7 +171,7 @@
             Salvar.BackColor = Color.LightCoral;
             Salvar.Cursor = Cursors.Hand;
             Salvar.FlatStyle = FlatStyle.Flat;
-            Salvar.Location = new Point(91, 324);
+            Salvar.Location = new Point(91, 413);
             Salvar.Name = "Salvar";
             Salvar.Size = new Size(86, 37);
             Salvar.TabIndex = 13;
@@ -238,11 +244,37 @@
             TxtDescricao.Size = new Size(197, 23);
             TxtDescricao.TabIndex = 12;
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(142, 328);
+            label9.Name = "label9";
+            label9.Size = new Size(90, 15);
+            label9.TabIndex = 21;
+            label9.Text = "Data de entrada";
+            // 
+            // dtpDataEntrada
+            // 
+            dtpDataEntrada.Location = new Point(94, 382);
+            dtpDataEntrada.Name = "dtpDataEntrada";
+            dtpDataEntrada.Size = new Size(200, 23);
+            dtpDataEntrada.TabIndex = 22;
+            // 
+            // CheckBoxAgora
+            // 
+            CheckBoxAgora.AutoSize = true;
+            CheckBoxAgora.Location = new Point(94, 357);
+            CheckBoxAgora.Name = "CheckBoxAgora";
+            CheckBoxAgora.Size = new Size(58, 19);
+            CheckBoxAgora.TabIndex = 24;
+            CheckBoxAgora.Text = "Agora";
+            CheckBoxAgora.UseVisualStyleBackColor = true;
+            // 
             // FmrEntrada
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(431, 465);
+            ClientSize = new Size(431, 573);
             Controls.Add(panel1);
             Controls.Add(panel2);
             Name = "FmrEntrada";
@@ -276,5 +308,8 @@
         private TextBox TxtLote;
         private Label label8;
         private DateTimePicker DtpDataValidade;
+        private CheckBox CheckBoxAgora;
+        private DateTimePicker dtpDataEntrada;
+        private Label label9;
     }
 }

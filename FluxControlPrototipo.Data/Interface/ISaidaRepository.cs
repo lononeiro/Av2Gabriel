@@ -13,5 +13,7 @@ namespace FluxControl.Data.Interface
         public Saida SelecionarPeloLote(int produtoId, int lote);
 
         void Excluir(Saida oSaida);
+
+        public List<Saida> SelecionarPorIntervaloDeTempo(DateTime dataInicio, DateTime dataFim);
     }
 }

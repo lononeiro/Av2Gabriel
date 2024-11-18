@@ -49,5 +49,13 @@ namespace FluxControl.Data.Repositories
         {
             return db.Entrada.FirstOrDefault(e => e.ProdutoIdProduto == produtoId && e.Lote == lote);
         }
+
+        public List<Entrada> SelecionarPorIntervaloDeTempo(DateTime dataInicio, DateTime dataFim)
+        {
+            return db.Entrada
+                     .Where(e => e.DataEntrada >= dataInicio && e.DataEntrada <= dataFim)
+                     .ToList();
+        }
+
     }
 }

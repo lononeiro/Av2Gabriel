@@ -16,5 +16,7 @@ namespace FluxControl.Data.Interface
         void SelecionarPelaChave(string nome);
 
         public Entrada SelecionarPeloLote(int produtoId, int lote);
+
+        public List<Entrada> SelecionarPorIntervaloDeTempo(DateTime dataInicio, DateTime dataFim);
     }
 }

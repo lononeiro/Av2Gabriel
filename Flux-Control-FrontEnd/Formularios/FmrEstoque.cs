@@ -30,6 +30,13 @@ namespace Flux_Control_prototipo.Formularios
         public FmrEstoque()
         {
             InitializeComponent();
+          
+            if (UsuarioAtual.IsAdmin == false)
+            {
+                BtnCadastrarProduto.Enabled = false;
+                BtnEmitirRelatorio.Enabled = false;
+            }
+            
             this.WindowState = FormWindowState.Maximized;
         }
 
@@ -103,14 +110,14 @@ namespace Flux_Control_prototipo.Formularios
             GrdEstoque.Columns.Add(colDataValidade);
 
             // Botão Editar
-            DataGridViewButtonColumn colEditar = new DataGridViewButtonColumn
-            {
-                HeaderText = "Editar",
-                Name = "BtnEditar",
-                Text = "",
-                UseColumnTextForButtonValue = true
-            };
-            GrdEstoque.Columns.Add(colEditar);
+            //DataGridViewButtonColumn colEditar = new DataGridViewButtonColumn
+            //{
+            //    HeaderText = "Editar",
+            //    Name = "BtnEditar",
+            //    Text = "",
+            //    UseColumnTextForButtonValue = true
+            //};
+            //GrdEstoque.Columns.Add(colEditar);
 
             // Botão Excluir
             DataGridViewButtonColumn colExcluir = new DataGridViewButtonColumn
@@ -162,9 +169,9 @@ namespace Flux_Control_prototipo.Formularios
                         if (GrdEstoque.Columns[e.ColumnIndex].Name == "BtnEditar")
                         {
                             // Carregar os dados do produto selecionado para os campos de edição
-                            TxtDescricao.Text = estoqueSelecionado.DescricaoProdutoEstoque;
-                            TxtQuantidade.Text = estoqueSelecionado.QuantidadeEstoque.ToString();
-                            TxtPrecoCompra.Text = estoqueSelecionado.PrecoVendaProdutoEstoque.ToString();
+                            //TxtDescricao.Text = estoqueSelecionado.DescricaoProdutoEstoque;
+                            //TxtQuantidade.Text = estoqueSelecionado.QuantidadeEstoque.ToString();
+                            //TxtPrecoCompra.Text = estoqueSelecionado.PrecoVendaProdutoEstoque.ToString();
 
                             // Obtenha o estoque selecionado através da chave (IdEstoque)
                             var produto = estoqueRepository.SelecionarPelaChave(estoqueSelecionado.IdEstoque);
@@ -186,9 +193,10 @@ namespace Flux_Control_prototipo.Formularios
                                 var row = GrdEstoque.Rows[e.RowIndex];
                                 var idEstoque = row.Cells[0].Value;
                                 int id = Convert.ToInt32(idEstoque);
-                               
+
                                 //Estoque estoqueprontopraexcluir = estoqueRepository.SelecionarPelaChave(estoque.idEstoque);
                                 Estoque estoque = estoqueRepository.SelecionarPelaChave(id);
+
                                 if (estoque != null)
                                 {
                                     var entrada = entradaRepository.SelecionarPeloLote(estoque.ProdutoIdProduto, estoque.LoteEstoque);
@@ -222,7 +230,7 @@ namespace Flux_Control_prototipo.Formularios
 
         private void BtnAlterar_Click(object sender, EventArgs e)
         {
-            // Validar o ID do produto carregado
+            /// Validar o ID do produto carregado
             if (estoqueSelecionado == null)
             {
                 MessageBox.Show("Nenhum produto selecionado para alterar.");
@@ -259,5 +267,13 @@ namespace Flux_Control_prototipo.Formularios
             FmrSaida oFmr = new FmrSaida();
             oFmr.Show();
         }
+        private void BtnRelatorio_CLick(object sender, EventArgs e)
+        {
+            FmrRelatorio oFmr = new FmrRelatorio();
+            oFmr.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {                    }
     }
 }

@@ -36,6 +36,7 @@
             button1 = new Button();
             cmbTipoProduto = new ComboBox();
             button2 = new Button();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)GrdProdutos).BeginInit();
             SuspendLayout();
             // 
@@ -117,11 +118,21 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += RecarregaClick;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(235, 45);
+            label2.Name = "label2";
+            label2.Size = new Size(76, 15);
+            label2.TabIndex = 9;
+            label2.Text = "Tipo Produto";
+            // 
             // FmrCadastrarProdutos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(button2);
             Controls.Add(cmbTipoProduto);
             Controls.Add(button1);
@@ -148,5 +159,6 @@
         private Button button1;
         private ComboBox cmbTipoProduto;
         private Button button2;
+        private Label label2;
     }
 }

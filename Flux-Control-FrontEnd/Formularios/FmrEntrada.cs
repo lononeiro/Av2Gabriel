@@ -20,7 +20,7 @@ namespace Flux_Control_prototipo.Formularios
             this.FormBorderStyle = FormBorderStyle.Sizable;
             this.MaximizeBox = false;
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.Size = new System.Drawing.Size(500, 500);
+            this.Size = new System.Drawing.Size(500, 700);
         }
 
         private void CarregaComboBox()
@@ -89,13 +89,21 @@ namespace Flux_Control_prototipo.Formularios
                 QuantidadeEntrada = int.Parse(TxtQuantidade.Text),
                 PrecoCompra = (double)precoCompra,
                 PrecoVenda = (double)precoVenda,
-                DataEntrada = DateTime.Now,
-                Lote = int.Parse(TxtLote.Text)
+                Lote = int.Parse(TxtLote.Text),
             };
 
+                    if (CheckBoxAgora.Checked)
+                    {
+                        entrada.DataEntrada = DateTime.Now;
+
+                    }
+                    else
+                    {
+                        entrada.DataEntrada = dtpDataEntrada.Value;
+                    }
 
 
-                if (!int.TryParse(TxtLote.Text, out int lote))
+                    if (!int.TryParse(TxtLote.Text, out int lote))
                 {
                     MessageBox.Show("O lote deve ser um número inteiro.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;

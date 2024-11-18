@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FluxControl.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a90796aeb4a201a93ac54796baee6cf5beb5ba6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59ecfaf512ae4e16abe7f6abc30e4f8e02ea36a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FluxControl.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FluxControl.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,7 @@ namespace Flux_Control_prototipo.Formularios
 {
     public partial class FmrLogin : Form
     {
-        private UsuarioRepository usuarioRepository; 
+        private UsuarioRepository usuarioRepository;
         private FmrCadastrarUsuario oFmr;
 
         public bool admin;
@@ -16,8 +16,12 @@ namespace Flux_Control_prototipo.Formularios
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
-            usuarioRepository = new UsuarioRepository(new DbFluxControlContext()); 
+            usuarioRepository = new UsuarioRepository(new DbFluxControlContext());
         }
+
+
+
+
 
         private void FmrLogin_Load(object sender, EventArgs e)
         {
@@ -25,7 +29,7 @@ namespace Flux_Control_prototipo.Formularios
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            string email = TxtEmail.Text; 
+            string email = TxtEmail.Text;
             string senha = TxtSenha.Text;
 
             // Use o repositório para verificar as credenciais
@@ -37,7 +41,19 @@ namespace Flux_Control_prototipo.Formularios
                 this.Hide();
                 oFmr.Show();
 
+                
+                var usuario = usuarioRepository.ObterUsuarioPorEmail(email);
+
+                UsuarioAtual.IsAdmin = usuarioRepository.VerificaAdmin(usuario.Nome);
+                UsuarioAtual.UsuarioId = usuario.IdUsuario;
+
                 oFmr.FormClosed += (s, args) => this.Show();
+
+                if (usuarioRepository.VerificaAdmin(TxtEmail.Text))
+                {
+                    admin = true;
+                }
+
             }
             else
             {
@@ -49,6 +65,11 @@ namespace Flux_Control_prototipo.Formularios
         public void ResgatarIdEmpresa()
         {
             // Implementar lógica para resgatar o ID da empresa, se necessário
+        }
+
+        private void TxtEmail_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

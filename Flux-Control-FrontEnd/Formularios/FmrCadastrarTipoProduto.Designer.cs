@@ -86,6 +86,7 @@
             GrdProdutos.GridColor = Color.Black;
             GrdProdutos.Location = new Point(28, 89);
             GrdProdutos.Name = "GrdProdutos";
+            GrdProdutos.ReadOnly = true;
             GrdProdutos.Size = new Size(744, 320);
             GrdProdutos.TabIndex = 6;
             GrdProdutos.CellContentClick += GrdProdutos_CellContentClick;
@@ -94,11 +95,13 @@
             // 
             Nome.HeaderText = "Nome";
             Nome.Name = "Nome";
+            Nome.ReadOnly = true;
             // 
             // BtnEditar
             // 
             BtnEditar.HeaderText = "Editar";
             BtnEditar.Name = "BtnEditar";
+            BtnEditar.ReadOnly = true;
             BtnEditar.Resizable = DataGridViewTriState.True;
             BtnEditar.SortMode = DataGridViewColumnSortMode.Automatic;
             // 
@@ -106,6 +109,7 @@
             // 
             BtnExcluir.HeaderText = "Excluir";
             BtnExcluir.Name = "BtnExcluir";
+            BtnExcluir.ReadOnly = true;
             BtnExcluir.Resizable = DataGridViewTriState.True;
             BtnExcluir.SortMode = DataGridViewColumnSortMode.Automatic;
             // 
@@ -121,7 +125,6 @@
             Controls.Add(GrdProdutos);
             Name = "FmrCadastrarTipoProduto";
             Text = "Tipo de Produto";
-           // Load += FmrCadastrarTipoProduto_Load;
             ((System.ComponentModel.ISupportInitialize)GrdProdutos).EndInit();
             ResumeLayout(false);
             PerformLayout();

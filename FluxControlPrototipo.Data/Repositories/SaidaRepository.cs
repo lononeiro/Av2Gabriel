@@ -61,5 +61,13 @@ namespace FluxControl.Data.Repositories
             db.Entry(oSaida).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
             db.SaveChanges();
         }
-    } 
+
+        public List<Saida> SelecionarPorIntervaloDeTempo(DateTime dataInicio, DateTime dataFim)
+        {
+            return db.Saida
+                     .Where(s => s.DataSaida >= dataInicio && s.DataSaida <= dataFim)
+                     .ToList();
+        }
+
     }
+}

@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Flux-Control-FrontEnd"
+    "\\Flux-Control-FrontEnd",
+    "\\Flux-Control-FrontEnd\\Formularios"
   ],
-  "SelectedNode": "\\Flux-Control-FrontEnd\\Flux Control prototipo.sln",
+  "SelectedNode": "\\Flux-Control-FrontEnd\\Formularios\\FmrEntrada.cs",
   "PreviewInSolutionExplorer": false
 }

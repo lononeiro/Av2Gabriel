@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flux Control", "Flux Control.csproj", "{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxControl.Data", "..\FluxControlPrototipo.Data\FluxControl.Data.csproj", "{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluxControl.Data", "..\FluxControlPrototipo.Data\FluxControl.Data.csproj", "{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxControl.Test", "..\FluxControl.Test\FluxControl.Test.csproj", "{2839EE04-8BC8-4E61-8098-B364253F9ED8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2839EE04-8BC8-4E61-8098-B364253F9ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2839EE04-8BC8-4E61-8098-B364253F9ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2839EE04-8BC8-4E61-8098-B364253F9ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2839EE04-8BC8-4E61-8098-B364253F9ED8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

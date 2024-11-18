@@ -34,8 +34,6 @@
             TxtProduto = new TextBox();
             TxtPrecoTotal = new TextBox();
             label4 = new Label();
-            TxtLucro = new TextBox();
-            label5 = new Label();
             panel1 = new Panel();
             label2 = new Label();
             TxtQuantidade = new TextBox();
@@ -95,7 +93,7 @@
             TxtPrecoTotal.Enabled = false;
             TxtPrecoTotal.Location = new Point(90, 495);
             TxtPrecoTotal.Name = "TxtPrecoTotal";
-            TxtPrecoTotal.Size = new Size(108, 23);
+            TxtPrecoTotal.Size = new Size(272, 23);
             TxtPrecoTotal.TabIndex = 18;
             // 
             // label4
@@ -107,31 +105,12 @@
             label4.TabIndex = 17;
             label4.Text = "PREÇO TOTAL (R$)";
             // 
-            // TxtLucro
-            // 
-            TxtLucro.Cursor = Cursors.IBeam;
-            TxtLucro.Enabled = false;
-            TxtLucro.Location = new Point(221, 495);
-            TxtLucro.Name = "TxtLucro";
-            TxtLucro.Size = new Size(108, 23);
-            TxtLucro.TabIndex = 20;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(149, 390);
-            label5.Name = "label5";
-            label5.Size = new Size(69, 15);
-            label5.TabIndex = 19;
-            label5.Text = "LUCRO (R$)";
-            // 
             // panel1
             // 
             panel1.BackColor = SystemColors.Menu;
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(label2);
             panel1.Controls.Add(TxtQuantidade);
-            panel1.Controls.Add(label5);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(TxtProduto);
@@ -237,7 +216,6 @@
             Controls.Add(label7);
             Controls.Add(BtnEncerrar);
             Controls.Add(BtnAdicionar);
-            Controls.Add(TxtLucro);
             Controls.Add(TxtPrecoTotal);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -259,8 +237,6 @@
         private TextBox TxtProduto;
         private TextBox TxtPrecoTotal;
         private Label label4;
-        private TextBox TxtLucro;
-        private Label label5;
         private Panel panel1;
         private Label label2;
         private TextBox TxtQuantidade;

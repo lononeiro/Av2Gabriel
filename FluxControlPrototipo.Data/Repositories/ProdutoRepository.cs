@@ -81,5 +81,11 @@ namespace FluxControl.Data.Repositories
 
             return produtoSelecionado;
         }
+
+        public string SelecionarNomePelaChave(int id)
+        {
+            var produtoselecionado = (db.Produtos.FirstOrDefault(e => e.IdProduto == id));
+            return produtoselecionado.Nome;
+        }
     }
 }

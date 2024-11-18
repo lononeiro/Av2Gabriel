@@ -75,6 +75,7 @@
             TxtEmail.Name = "TxtEmail";
             TxtEmail.Size = new Size(253, 23);
             TxtEmail.TabIndex = 2;
+            TxtEmail.TextChanged += TxtEmail_TextChanged;
             // 
             // TxtSenha
             // 

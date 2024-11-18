@@ -13,6 +13,7 @@ namespace Flux_Control_prototipo.Formularios
     {
         private EstoqueRepository estoqueRepository = new EstoqueRepository(new DbFluxControlContext());
         private SaidaRepository saidaRepository = new SaidaRepository(new DbFluxControlContext());
+        private ProdutoRepository produtoRepository = new ProdutoRepository(new DbFluxControlContext());
         private List<Estoque> produtosSelecionados = new List<Estoque>();
         private Estoque produtoAtualSelecionado;
         private double precoTotal = 0;
@@ -42,6 +43,19 @@ namespace Flux_Control_prototipo.Formularios
             AtualizarPrecoTotal();
             CarregaGrid();
             this.Close();
+        }
+        private bool VerificaQuantidade(int id, int quantidade)
+        {
+            Estoque estoque = estoqueRepository.SelecionarPelaChave(id);
+
+            if (estoque.QuantidadeEstoque > quantidade)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         private void CarregaGrid()
@@ -137,7 +151,9 @@ namespace Flux_Control_prototipo.Formularios
                     return;
                 }
 
-                TxtProduto.Text = Convert.ToString(produtoAtualSelecionado.ProdutoIdProduto);
+                string nomeProduto = produtoRepository.SelecionarNomePelaChave(produtoAtualSelecionado.ProdutoIdProduto);
+
+                TxtProduto.Text = nomeProduto;
 
             }
             catch (Exception ex)
@@ -155,24 +171,30 @@ namespace Flux_Control_prototipo.Formularios
                     MessageBox.Show("Nenhum produto selecionado.");
                     return;
                 }
-
                 int quantidadeSaida = Convert.ToInt32(TxtQuantidade.Text);
-                produtoAtualSelecionado.QuantidadeEstoque = quantidadeSaida;
+                if (VerificaQuantidade(produtoAtualSelecionado.idEstoque, quantidadeSaida))
+                {
+                    produtoAtualSelecionado.QuantidadeEstoque = quantidadeSaida;
 
-                //if (produtosSelecionados.Any(p => p.idEstoque == produtoAtualSelecionado.idEstoque))
-                //{
-                //    MessageBox.Show("Este produto já foi adicionado.");
-                //    return;
-                //}
+                    //if (produtosSelecionados.Any(p => p.idEstoque == produtoAtualSelecionado.idEstoque))
+                    //{
+                    //    MessageBox.Show("Este produto já foi adicionado.");
+                    //    return;
+                    //}
 
-                produtosSelecionados.Add(produtoAtualSelecionado);
+                    produtosSelecionados.Add(produtoAtualSelecionado);
 
-                precoTotal += produtoAtualSelecionado.PrecoVendaEstoque * produtoAtualSelecionado.QuantidadeEstoque;
-                AtualizarPrecoTotal();
+                    precoTotal += produtoAtualSelecionado.PrecoVendaEstoque * produtoAtualSelecionado.QuantidadeEstoque;
+                    AtualizarPrecoTotal();
 
-                produtoAtualSelecionado = null; // Limpa o produto atual após adicionar
-                TxtProduto.Clear();
-                TxtQuantidade.Clear();
+                    produtoAtualSelecionado = null; // Limpa o produto atual após adicionar
+                    TxtProduto.Clear();
+                    TxtQuantidade.Clear();
+                }
+                else
+                {
+                    MessageBox.Show($"Erro ao adicionar produto: Quantidade insuficiente no estoque.");
+                }
             }
             catch (Exception ex)
             {
@@ -193,10 +215,11 @@ namespace Flux_Control_prototipo.Formularios
 
                 foreach (var produto in produtosSelecionados)
                 {
+                    string nomeProduto = produtoRepository.SelecionarNomePelaChave(produto.ProdutoIdProduto);
                     estoqueRepository.AtualizarQuantidade(produto.idEstoque, produto.QuantidadeEstoque);
                     saidaRepository.RegistrarSaida(produto.idEstoque, produto.QuantidadeEstoque, produto.PrecoVendaEstoque, produto.LoteEstoque);
 
-                    produtosSaida.AppendLine($"{produto.ProdutoIdProduto} - Quantidade: {produto.QuantidadeEstoque}");
+                    produtosSaida.AppendLine($"{nomeProduto} - Quantidade: {produto.QuantidadeEstoque}");
                 }
                 MessageBox.Show(produtosSaida.ToString(), "Registro de Saída");
             }

@@ -18,5 +18,7 @@ namespace FluxControl.Data.Interface
         public List<Produto> SelecionarCombobox();
 
         public ProdutoSelecionado? SelecionarPeloNome(string nomeProduto);
+
+        string SelecionarNomePelaChave(int id);
     }
 }

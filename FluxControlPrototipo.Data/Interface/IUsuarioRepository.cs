@@ -1,4 +1,5 @@
 ﻿using FluxControl.Data.Model;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,10 @@ namespace FluxControl.Data.Interface
         List<Usuario> SelecionarTodos();
         bool VerificarCredenciais(string nomeUsuario, string senha);
         bool VerificarNome(string nomeUsuario);
+        bool VerificaAdmin(string nome);
+
+        public Usuario ObterUsuarioPorEmail(string email);
+
     }
 }
 

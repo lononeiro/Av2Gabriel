@@ -67,8 +67,8 @@ namespace Flux_Control_prototipo.Formularios
                 MessageBox.Show("Preços devem ser valores numéricos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-                EntradaRepository entradaRepository = new EntradaRepository(new DbFluxControlContext());
-                EstoqueRepository estoqueRepository = new EstoqueRepository(new DbFluxControlContext());
+            EntradaRepository entradaRepository = new EntradaRepository(new DbFluxControlContext());
+            EstoqueRepository estoqueRepository = new EstoqueRepository(new DbFluxControlContext());
 
             var oEntrada = entradaRepository.SelecionarPeloLote((int)ComboBoxProdutos.SelectedValue, int.Parse(TxtLote.Text));
             if (oEntrada != null)
@@ -78,19 +78,19 @@ namespace Flux_Control_prototipo.Formularios
             else
             {
 
-            try
-            {
+                try
+                {
 
-            int produtoId = (int)ComboBoxProdutos.SelectedValue;
-            Entrada entrada = new Entrada
-            {
-                DescricaoEntrada = TxtDescricao.Text,
-                ProdutoIdProduto = produtoId,
-                QuantidadeEntrada = int.Parse(TxtQuantidade.Text),
-                PrecoCompra = (double)precoCompra,
-                PrecoVenda = (double)precoVenda,
-                Lote = int.Parse(TxtLote.Text),
-            };
+                    int produtoId = (int)ComboBoxProdutos.SelectedValue;
+                    Entrada entrada = new Entrada
+                    {
+                        DescricaoEntrada = TxtDescricao.Text,
+                        ProdutoIdProduto = produtoId,
+                        QuantidadeEntrada = int.Parse(TxtQuantidade.Text),
+                        PrecoCompra = (double)precoCompra,
+                        PrecoVenda = (double)precoVenda,
+                        Lote = int.Parse(TxtLote.Text),
+                    };
 
                     if (CheckBoxAgora.Checked)
                     {
@@ -104,34 +104,34 @@ namespace Flux_Control_prototipo.Formularios
 
 
                     if (!int.TryParse(TxtLote.Text, out int lote))
-                {
-                    MessageBox.Show("O lote deve ser um número inteiro.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
+                    {
+                        MessageBox.Show("O lote deve ser um número inteiro.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    Estoque oEstoque = new Estoque
+                    {
+                        ProdutoIdProduto = produtoId,
+                        Descricao = TxtDescricao.Text,
+                        PrecoVendaEstoque = (double)precoVenda,
+                        QuantidadeEstoque = int.Parse(TxtQuantidade.Text),
+                        LoteEstoque = int.Parse(TxtLote.Text),
+                        DataValidadeEstoque = DtpDataValidade.Value
+
+                    };
+
+
+                    estoqueRepository.Incluir(oEstoque);
+                    entradaRepository.Incluir(entrada);
+
+                    LimparCampos();
+                    MessageBox.Show("Cadastro de entrada concluído", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 }
-
-                Estoque oEstoque = new Estoque
+                catch (Exception ex)
                 {
-                    ProdutoIdProduto = produtoId,
-                    Descricao = TxtDescricao.Text,
-                    PrecoVendaEstoque = (double)precoVenda,
-                    QuantidadeEstoque = int.Parse(TxtQuantidade.Text),
-                    LoteEstoque = int.Parse(TxtLote.Text),
-                    DataValidadeEstoque = DtpDataValidade.Value
-
-                };
-
-
-                estoqueRepository.Incluir(oEstoque);
-                entradaRepository.Incluir(entrada);
-
-                LimparCampos();
-                MessageBox.Show("Cadastro de entrada concluído", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erro ao registrar entrada: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                    MessageBox.Show($"Erro ao registrar entrada: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -153,6 +153,13 @@ namespace Flux_Control_prototipo.Formularios
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
         {
 
+        }
+
+        private void CheckBoxAgora_CheckedChanged(object sender, EventArgs e)
+        {
+                dtpDataEntrada.Enabled = !CheckBoxAgora.Checked;
+          
+        
         }
     }
 }

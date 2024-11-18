@@ -32,6 +32,9 @@
             label3 = new Label();
             panel2 = new Panel();
             panel1 = new Panel();
+            CheckBoxAgora = new CheckBox();
+            dtpDataEntrada = new DateTimePicker();
+            label9 = new Label();
             DtpDataValidade = new DateTimePicker();
             label8 = new Label();
             label7 = new Label();
@@ -47,9 +50,6 @@
             label2 = new Label();
             TxtQuantidade = new TextBox();
             TxtDescricao = new TextBox();
-            label9 = new Label();
-            dtpDataEntrada = new DateTimePicker();
-            CheckBoxAgora = new CheckBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -112,6 +112,33 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(380, 488);
             panel1.TabIndex = 10;
+            // 
+            // CheckBoxAgora
+            // 
+            CheckBoxAgora.AutoSize = true;
+            CheckBoxAgora.Location = new Point(94, 357);
+            CheckBoxAgora.Name = "CheckBoxAgora";
+            CheckBoxAgora.Size = new Size(58, 19);
+            CheckBoxAgora.TabIndex = 24;
+            CheckBoxAgora.Text = "Agora";
+            CheckBoxAgora.UseVisualStyleBackColor = true;
+            CheckBoxAgora.CheckedChanged += CheckBoxAgora_CheckedChanged;
+            // 
+            // dtpDataEntrada
+            // 
+            dtpDataEntrada.Location = new Point(94, 382);
+            dtpDataEntrada.Name = "dtpDataEntrada";
+            dtpDataEntrada.Size = new Size(200, 23);
+            dtpDataEntrada.TabIndex = 22;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(142, 328);
+            label9.Name = "label9";
+            label9.Size = new Size(90, 15);
+            label9.TabIndex = 21;
+            label9.Text = "Data de entrada";
             // 
             // DtpDataValidade
             // 
@@ -243,32 +270,6 @@
             TxtDescricao.Name = "TxtDescricao";
             TxtDescricao.Size = new Size(197, 23);
             TxtDescricao.TabIndex = 12;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(142, 328);
-            label9.Name = "label9";
-            label9.Size = new Size(90, 15);
-            label9.TabIndex = 21;
-            label9.Text = "Data de entrada";
-            // 
-            // dtpDataEntrada
-            // 
-            dtpDataEntrada.Location = new Point(94, 382);
-            dtpDataEntrada.Name = "dtpDataEntrada";
-            dtpDataEntrada.Size = new Size(200, 23);
-            dtpDataEntrada.TabIndex = 22;
-            // 
-            // CheckBoxAgora
-            // 
-            CheckBoxAgora.AutoSize = true;
-            CheckBoxAgora.Location = new Point(94, 357);
-            CheckBoxAgora.Name = "CheckBoxAgora";
-            CheckBoxAgora.Size = new Size(58, 19);
-            CheckBoxAgora.TabIndex = 24;
-            CheckBoxAgora.Text = "Agora";
-            CheckBoxAgora.UseVisualStyleBackColor = true;
             // 
             // FmrEntrada
             // 

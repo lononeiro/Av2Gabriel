@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Flux Control")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59ecfaf512ae4e16abe7f6abc30e4f8e02ea36a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7199fb5b0347d9e032f5be8ecc89e296fe7f3dc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Flux Control")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Flux Control")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

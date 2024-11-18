@@ -1,73 +1,96 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\",
+  "WorkspaceRootPath": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\flux-control-frontend\\formularios\\fmrestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\flux-control-frontend\\formularios\\fmrsaida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrsaida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\flux-control-frontend\\formularios\\fmrestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\flux-control-frontend\\formularios\\fmrsaida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrsaida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\formularios\\fmrcadastrarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrcadastrarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2839EE04-8BC8-4E61-8098-B364253F9ED8}|..\\FluxControl.Test\\FluxControl.Test.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrol.test\\testeestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2839EE04-8BC8-4E61-8098-B364253F9ED8}|..\\FluxControl.Test\\FluxControl.Test.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrol.test\\testesaida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}|..\\FluxControlPrototipo.Data\\FluxControl.Data.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrolprototipo.data\\repositories\\estoquerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2839EE04-8BC8-4E61-8098-B364253F9ED8}|..\\FluxControl.Test\\FluxControl.Test.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrol.test\\testeentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}|..\\FluxControlPrototipo.Data\\FluxControl.Data.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrolprototipo.data\\repositories\\saidarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2839EE04-8BC8-4E61-8098-B364253F9ED8}|..\\FluxControl.Test\\FluxControl.Test.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrol.test\\testetipoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}|..\\FluxControlPrototipo.Data\\FluxControl.Data.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrolprototipo.data\\repositories\\entradarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2839EE04-8BC8-4E61-8098-B364253F9ED8}|..\\FluxControl.Test\\FluxControl.Test.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrol.test\\testeempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}|..\\FluxControlPrototipo.Data\\FluxControl.Data.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrolprototipo.data\\repositories\\empresarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}|..\\FluxControlPrototipo.Data\\FluxControl.Data.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrolprototipo.data\\repositories\\tipoprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2839EE04-8BC8-4E61-8098-B364253F9ED8}|..\\FluxControl.Test\\FluxControl.Test.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrol.test\\testeproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}|..\\FluxControlPrototipo.Data\\FluxControl.Data.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrolprototipo.data\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\flux-control-frontend\\formularios\\fmrlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\flux-control-frontend\\formularios\\fmrentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\flux-control-frontend\\formularios\\fmrentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\flux-control-frontend\\formularios\\fmrentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}|..\\FluxControlPrototipo.Data\\FluxControl.Data.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\fluxcontrolprototipo.data\\model\\dbfluxcontrolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\formularios\\fmrentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrentrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\formularios\\fmrlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\flux-control-frontend\\formularios\\fmrcadastrarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrcadastrarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\flux-control-frontend\\formularios\\fmrcadastrartipoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrcadastrartipoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\flux-control-frontend\\formularios\\fmrcadastrartipoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrcadastrartipoproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\flux-control-frontend\\formularios\\fmrcadastrarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrcadastrarprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\formularios\\fmrestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\flux-control-frontend\\formularios\\fmrlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\formularios\\fmrlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63F70BB7-B9A7-4183-B2E2-BA3D95A871F0}|..\\FluxControlPrototipo.Data\\FluxControl.Data.csproj|d:\\pastas do lucas\\arquivos de documewntos\\c#\\fluxcontrol\\fluxcontrolprototipo.data\\model\\usuarioatual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|c:\\users\\coord.info\\desktop\\lucas\\av2gabriel\\flux-control-frontend\\formularios\\fmrestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8CF7D31-6A4C-4E9B-83F7-BFC345309C85}|Flux Control.csproj|solutionrelative:formularios\\fmrestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEstoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\SaidaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEntrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteSaida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EntradaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EstoqueRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEmpresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteTipoProduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\TipoProdutoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\ProdutoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteProduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EmpresaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Model\\UsuarioAtual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -77,15 +100,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 253,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "FmrEstoque.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrEstoque.cs",
               "RelativeDocumentMoniker": "Formularios\\FmrEstoque.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrEstoque.cs",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrEstoque.cs",
               "RelativeToolTip": "Formularios\\FmrEstoque.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAAAQwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,17 +118,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "FmrLogin.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrLogin.cs",
               "RelativeDocumentMoniker": "Formularios\\FmrLogin.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrLogin.cs",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrLogin.cs",
               "RelativeToolTip": "Formularios\\FmrLogin.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T00:33:12.354Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FmrSaida.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrSaida.cs",
+              "RelativeDocumentMoniker": "Formularios\\FmrSaida.cs",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrSaida.cs",
+              "RelativeToolTip": "Formularios\\FmrSaida.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T15:10:40.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FmrSaida.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrSaida.cs",
+              "RelativeDocumentMoniker": "Formularios\\FmrSaida.cs",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrSaida.cs [Projeto]",
+              "RelativeToolTip": "Formularios\\FmrSaida.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T15:10:34.105Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Bookmark",
@@ -121,28 +169,41 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TesteEstoque.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEstoque.cs",
-              "RelativeDocumentMoniker": "..\\FluxControl.Test\\TesteEstoque.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEstoque.cs",
-              "RelativeToolTip": "..\\FluxControl.Test\\TesteEstoque.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAiwDwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "FmrCadastrarTipoProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarTipoProduto.cs",
+              "RelativeDocumentMoniker": "Formularios\\FmrCadastrarTipoProduto.cs",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarTipoProduto.cs",
+              "RelativeToolTip": "Formularios\\FmrCadastrarTipoProduto.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAuwJMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T22:30:11.903Z",
+              "WhenOpened": "2024-11-18T12:47:39.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FmrCadastrarProdutos.cs [Projeto]",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarProdutos.cs",
+              "DocumentIndex": 5,
+              "Title": "FmrCadastrarProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarProdutos.cs",
               "RelativeDocumentMoniker": "Formularios\\FmrCadastrarProdutos.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarProdutos.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarProdutos.cs",
+              "RelativeToolTip": "Formularios\\FmrCadastrarProdutos.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAwLsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:32:30.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FmrCadastrarProdutos.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarProdutos.cs",
+              "RelativeDocumentMoniker": "Formularios\\FmrCadastrarProdutos.cs",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarProdutos.cs [Projeto]",
               "RelativeToolTip": "Formularios\\FmrCadastrarProdutos.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T21:26:59.76Z",
@@ -150,11 +211,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "FmrEstoque.cs [Projeto]",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrEstoque.cs",
               "RelativeDocumentMoniker": "Formularios\\FmrEstoque.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrEstoque.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrEstoque.cs [Projeto]",
               "RelativeToolTip": "Formularios\\FmrEstoque.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T20:03:38.404Z",
@@ -162,154 +223,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SaidaRepository.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\SaidaRepository.cs",
-              "RelativeDocumentMoniker": "..\\FluxControlPrototipo.Data\\Repositories\\SaidaRepository.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\SaidaRepository.cs",
-              "RelativeToolTip": "..\\FluxControlPrototipo.Data\\Repositories\\SaidaRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:55:07.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TesteEntrada.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEntrada.cs",
-              "RelativeDocumentMoniker": "..\\FluxControl.Test\\TesteEntrada.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEntrada.cs",
-              "RelativeToolTip": "..\\FluxControl.Test\\TesteEntrada.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:17:22.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TesteSaida.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteSaida.cs",
-              "RelativeDocumentMoniker": "..\\FluxControl.Test\\TesteSaida.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteSaida.cs",
-              "RelativeToolTip": "..\\FluxControl.Test\\TesteSaida.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAhwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:55:50.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EntradaRepository.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EntradaRepository.cs",
-              "RelativeDocumentMoniker": "..\\FluxControlPrototipo.Data\\Repositories\\EntradaRepository.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EntradaRepository.cs",
-              "RelativeToolTip": "..\\FluxControlPrototipo.Data\\Repositories\\EntradaRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAYwDQAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:15:14.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EstoqueRepository.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EstoqueRepository.cs",
-              "RelativeDocumentMoniker": "..\\FluxControlPrototipo.Data\\Repositories\\EstoqueRepository.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EstoqueRepository.cs",
-              "RelativeToolTip": "..\\FluxControlPrototipo.Data\\Repositories\\EstoqueRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswC0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T22:26:11.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TesteEmpresa.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEmpresa.cs",
-              "RelativeDocumentMoniker": "..\\FluxControl.Test\\TesteEmpresa.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEmpresa.cs",
-              "RelativeToolTip": "..\\FluxControl.Test\\TesteEmpresa.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAuwHsAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:11:51.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TesteTipoProduto.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteTipoProduto.cs",
-              "RelativeDocumentMoniker": "..\\FluxControl.Test\\TesteTipoProduto.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteTipoProduto.cs",
-              "RelativeToolTip": "..\\FluxControl.Test\\TesteTipoProduto.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:10:08.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TipoProdutoRepository.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\TipoProdutoRepository.cs",
-              "RelativeDocumentMoniker": "..\\FluxControlPrototipo.Data\\Repositories\\TipoProdutoRepository.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\TipoProdutoRepository.cs",
-              "RelativeToolTip": "..\\FluxControlPrototipo.Data\\Repositories\\TipoProdutoRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T21:07:07.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProdutoRepository.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\ProdutoRepository.cs",
-              "RelativeDocumentMoniker": "..\\FluxControlPrototipo.Data\\Repositories\\ProdutoRepository.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\ProdutoRepository.cs",
-              "RelativeToolTip": "..\\FluxControlPrototipo.Data\\Repositories\\ProdutoRepository.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAqwEYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T20:55:00.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TesteProduto.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteProduto.cs",
-              "RelativeDocumentMoniker": "..\\FluxControl.Test\\TesteProduto.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteProduto.cs",
-              "RelativeToolTip": "..\\FluxControl.Test\\TesteProduto.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAiwG0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T20:38:03.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FmrEntrada.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrEntrada.cs",
-              "RelativeDocumentMoniker": "Formularios\\FmrEntrada.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrEntrada.cs",
-              "RelativeToolTip": "Formularios\\FmrEntrada.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAqwGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T20:17:51.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "FmrEntrada.cs [Projeto]",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrEntrada.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrEntrada.cs",
               "RelativeDocumentMoniker": "Formularios\\FmrEntrada.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrEntrada.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrEntrada.cs [Projeto]",
               "RelativeToolTip": "Formularios\\FmrEntrada.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T20:14:25.912Z",
@@ -317,40 +235,183 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmpresaRepository.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EmpresaRepository.cs",
-              "RelativeDocumentMoniker": "..\\FluxControlPrototipo.Data\\Repositories\\EmpresaRepository.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EmpresaRepository.cs",
-              "RelativeToolTip": "..\\FluxControlPrototipo.Data\\Repositories\\EmpresaRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDcAAABGAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FmrEntrada.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrEntrada.cs",
+              "RelativeDocumentMoniker": "Formularios\\FmrEntrada.cs",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrEntrada.cs",
+              "RelativeToolTip": "Formularios\\FmrEntrada.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAADgv3wAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T00:33:33.732Z",
+              "WhenOpened": "2024-11-16T20:17:51.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UsuarioAtual.cs",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Model\\UsuarioAtual.cs",
-              "RelativeDocumentMoniker": "..\\FluxControlPrototipo.Data\\Model\\UsuarioAtual.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Model\\UsuarioAtual.cs",
-              "RelativeToolTip": "..\\FluxControlPrototipo.Data\\Model\\UsuarioAtual.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DbFluxControlContext.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControlPrototipo.Data\\Model\\DbFluxControlContext.cs",
+              "RelativeDocumentMoniker": "..\\FluxControlPrototipo.Data\\Model\\DbFluxControlContext.cs",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControlPrototipo.Data\\Model\\DbFluxControlContext.cs",
+              "RelativeToolTip": "..\\FluxControlPrototipo.Data\\Model\\DbFluxControlContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowB8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T00:59:32.096Z"
+              "WhenOpened": "2024-11-18T11:01:02.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FmrCadastrarTipoProduto.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarTipoProduto.cs",
+              "RelativeDocumentMoniker": "Formularios\\FmrCadastrarTipoProduto.cs",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrCadastrarTipoProduto.cs [Projeto]",
+              "RelativeToolTip": "Formularios\\FmrCadastrarTipoProduto.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:47:36.967Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SaidaRepository.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\SaidaRepository.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\SaidaRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T21:55:07.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TesteEntrada.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEntrada.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEntrada.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T21:17:22.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TesteSaida.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteSaida.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteSaida.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAhwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T21:55:50.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EntradaRepository.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EntradaRepository.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EntradaRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDQAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T21:15:14.861Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "EstoqueRepository.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EstoqueRepository.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EstoqueRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswC0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T22:26:11.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TesteEmpresa.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEmpresa.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEmpresa.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAuwHsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T21:11:51.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "FmrLogin.cs [Projeto]",
-              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrLogin.cs",
               "RelativeDocumentMoniker": "Formularios\\FmrLogin.cs",
-              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\Flux-Control-FrontEnd\\Formularios\\FmrLogin.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\Flux-Control-FrontEnd\\Formularios\\FmrLogin.cs [Projeto]",
               "RelativeToolTip": "Formularios\\FmrLogin.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T00:33:08.895Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TesteEstoque.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEstoque.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteEstoque.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAiwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T22:30:11.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TesteTipoProduto.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteTipoProduto.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteTipoProduto.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T21:10:08.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TipoProdutoRepository.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\TipoProdutoRepository.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\TipoProdutoRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T21:07:07.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwEYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:55:00.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TesteProduto.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteProduto.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\TesteProduto.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:38:03.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmpresaRepository.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EmpresaRepository.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Repositories\\EmpresaRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T00:33:33.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UsuarioAtual.cs",
+              "DocumentMoniker": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Model\\UsuarioAtual.cs",
+              "ToolTip": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\Model\\UsuarioAtual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T00:59:32.096Z"
             }
           ]
         },

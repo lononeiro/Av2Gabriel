@@ -12,6 +12,7 @@ namespace Flux_Control_prototipo.Formularios
         private bool _Incluir = true;
         private TipoProduto oProdutoSelecionado = null;
         private TipoProdutoRepository produtoTipoRepository = new TipoProdutoRepository(new DbFluxControlContext());
+        ProdutoRepository produtoRepository = new ProdutoRepository(new DbFluxControlContext());
 
         public FmrCadastrarTipoProduto()
         {
@@ -132,9 +133,19 @@ namespace Flux_Control_prototipo.Formularios
                             {
                             try
                             {
-                                produtoSelecionado.IdTipoProduto = produtoSelecionado.IdTipoProduto;
-                                produtoTipoRepository.Excluir(produtoSelecionado);
-                                CarregarGrid();
+                                var tipoproduto = produtoRepository.SelecionarTodos();
+                                var possuiProdutoComTipo = tipoproduto.Any(p => p.TipoProdutoIdTipoProduto == produtoSelecionado.IdTipoProduto);
+                                if (!possuiProdutoComTipo)
+                                {
+
+                                    produtoSelecionado.IdTipoProduto = produtoSelecionado.IdTipoProduto;
+                                    produtoTipoRepository.Excluir(produtoSelecionado);
+                                    CarregarGrid();
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Não é possivel excluir pois ele está associado a um produto cadastrado");
+                                }
                             }
                             catch (Exception ex)
                             {

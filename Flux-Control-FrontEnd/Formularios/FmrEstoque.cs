@@ -30,13 +30,7 @@ namespace Flux_Control_prototipo.Formularios
         public FmrEstoque()
         {
             InitializeComponent();
-          
-            if (UsuarioAtual.IsAdmin == false)
-            {
-                BtnCadastrarProduto.Enabled = false;
-                BtnEmitirRelatorio.Enabled = false;
-            }
-            
+         
             this.WindowState = FormWindowState.Maximized;
         }
 
@@ -146,6 +140,13 @@ namespace Flux_Control_prototipo.Formularios
         private void FmrGerenciarProdutos_Load(object sender, EventArgs e)
         {
             CarregaGrid();
+
+            if (UsuarioAtual.IsAdmin == false)
+            {
+                BtnCadastrarProduto.Enabled = false;
+                BtnEmitirRelatorio.Enabled = false;
+            }
+
         }
 
         private void GrdClick(object sender, DataGridViewCellEventArgs e)

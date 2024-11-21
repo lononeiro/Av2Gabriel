@@ -93,7 +93,7 @@
             // button1
             // 
             button1.Location = new Point(684, 53);
-            button1.Name = "button1";
+            button1.Name = "BtnAlterarUsuarios";
             button1.Size = new Size(94, 33);
             button1.TabIndex = 6;
             button1.Text = "Cadastrar Tipo";

@@ -85,6 +85,7 @@
             TxtSenha.Name = "TxtSenha";
             TxtSenha.Size = new Size(253, 23);
             TxtSenha.TabIndex = 4;
+            TxtSenha.UseSystemPasswordChar = true;
             // 
             // label2
             // 

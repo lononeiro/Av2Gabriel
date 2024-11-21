@@ -12,8 +12,16 @@ namespace Flux_Control_prototipo
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new FmrLogin());
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            // Exibir o formulário de login
+            FmrLogin loginForm = new FmrLogin();
+            if (loginForm.ShowDialog() == DialogResult.OK) // Somente prosseguir se login for bem-sucedido
+            {
+                Application.Run(new FmrEstoque());
+            }
         }
     }
 }

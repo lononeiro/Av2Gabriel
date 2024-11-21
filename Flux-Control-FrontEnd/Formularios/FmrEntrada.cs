@@ -17,6 +17,7 @@ namespace Flux_Control_prototipo.Formularios
         {
             InitializeComponent();
             CarregaComboBox();
+            ComboBoxProdutos.DropDownStyle = ComboBoxStyle.DropDownList;
             this.FormBorderStyle = FormBorderStyle.Sizable;
             this.MaximizeBox = false;
             this.StartPosition = FormStartPosition.CenterScreen;

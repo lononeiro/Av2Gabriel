@@ -20,11 +20,15 @@ namespace Flux_Control_prototipo.Formularios
         public FmrCadastrarUsuario()
         {
             InitializeComponent();
-            UsuarioRepository = new UsuarioRepository(new DbFluxControlContext()); // Instancie o repositório
+            UsuarioRepository = new UsuarioRepository(new DbFluxControlContext());
         }
 
         private void FmrCadastrarUsuario_Load(object sender, EventArgs e)
         {
+            if (UsuarioAtual.IsAdmin == false)
+            {
+                BtnAlterarUsuarios.Enabled = false;
+            }
         }
 
         private void LimpaControles()
@@ -57,21 +61,12 @@ namespace Flux_Control_prototipo.Formularios
                 return;
             }
 
-            if(checkBox1.Checked)
-            {
-                admin = true;
-            }
-            else
-            {
-                admin = false;
-            }
-
             Usuario usuario = new Usuario
             {
                 Email = TxtEmailEmpresa.Text,
                 Nome = TxtNomeEmpresa.Text,
                 Senha = TxtSenhaEmpresa.Text,
-                Admin = admin
+                Admin = false
 
             };
 
@@ -86,6 +81,12 @@ namespace Flux_Control_prototipo.Formularios
             {
                 MessageBox.Show($"Um erro ocorreu ao cadastrar o usuario: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FmrAlterarUsuarios oFmr = new FmrAlterarUsuarios();
+            oFmr.Show();
         }
     }
 }

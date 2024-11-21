@@ -23,8 +23,9 @@ namespace Flux_Control_prototipo.Formularios
 
 
 
-        private void FmrLogin_Load(object sender, EventArgs e)
+        private void abrirformulario()
         {
+
         }
 
         private void BtnLogin_Click(object sender, EventArgs e)
@@ -35,32 +36,39 @@ namespace Flux_Control_prototipo.Formularios
             // Use o repositório para verificar as credenciais
             if (usuarioRepository.VerificarCredenciais(email, senha))
             {
-                FmrEstoque oFmr = new FmrEstoque();
-                TxtEmail.Clear();
-                TxtSenha.Clear();
-                this.Hide();
-                oFmr.Show();
-
-                
+                // Obter o usuário e definir permissões globais
                 var usuario = usuarioRepository.ObterUsuarioPorEmail(email);
 
                 UsuarioAtual.IsAdmin = usuarioRepository.VerificaAdmin(usuario.Nome);
                 UsuarioAtual.UsuarioId = usuario.IdUsuario;
 
-                oFmr.FormClosed += (s, args) => this.Show();
+                // Limpar os campos e retornar sucesso
+                TxtEmail.Clear();
+                TxtSenha.Clear();
 
-                if (usuarioRepository.VerificaAdmin(TxtEmail.Text))
+                //this.DialogResult = DialogResult.OK; 
+
+                //this.Hide();
+
+                FmrEstoque oFmr = new FmrEstoque();
+                oFmr.Show();
+
+                // Configura o evento FormClosed para reabrir o login quando o estoque for fechado
+                oFmr.FormClosed += (s, args) =>
                 {
-                    admin = true;
-                }
+                    this.Show();
+                    TxtEmail.Focus();  // Foco no campo de e-mail ao reabrir o login
+                };
 
             }
             else
             {
+                // Exibir mensagem de erro
                 MessageBox.Show("Email ou senha inválidos. Tente novamente.", "Erro de Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 TxtEmail.Focus();
             }
         }
+
 
         public void ResgatarIdEmpresa()
         {
@@ -70,6 +78,10 @@ namespace Flux_Control_prototipo.Formularios
         private void TxtEmail_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void FmrLogin_Load(object sender, EventArgs e)
+        {
         }
     }
 }

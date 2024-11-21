@@ -129,7 +129,7 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Location = new Point(20, 335);
-            button1.Name = "button1";
+            button1.Name = "BtnAlterarUsuarios";
             button1.Size = new Size(142, 40);
             button1.TabIndex = 31;
             button1.Text = "Gerir Usuarios";

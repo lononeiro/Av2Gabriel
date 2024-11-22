@@ -103,6 +103,7 @@ namespace Flux_Control_prototipo.Formularios
             {
                 GrdUsuarios.AutoGenerateColumns = false;
                 GrdUsuarios.Columns.Clear();
+                GrdUsuarios.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
                 // Coluna Nome
                 DataGridViewTextBoxColumn colNome = new DataGridViewTextBoxColumn

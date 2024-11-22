@@ -15,7 +15,7 @@ namespace Flux_Control_prototipo.Formularios
         public FmrLogin()
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
+            WindowState = FormWindowState.Maximized;
             usuarioRepository = new UsuarioRepository(new DbFluxControlContext());
         }
 

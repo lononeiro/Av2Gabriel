@@ -48,9 +48,10 @@
             // panel2
             // 
             panel2.Anchor = AnchorStyles.None;
-            panel2.BackColor = Color.PeachPuff;
+            panel2.BackColor = Color.FromArgb(180, 37, 41);
             panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Controls.Add(label3);
+            panel2.ForeColor = Color.White;
             panel2.Location = new Point(217, 46);
             panel2.Name = "panel2";
             panel2.Size = new Size(366, 44);
@@ -60,11 +61,11 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(5, 4);
+            label3.Location = new Point(3, 5);
             label3.Name = "label3";
-            label3.Size = new Size(95, 37);
+            label3.Size = new Size(150, 37);
             label3.TabIndex = 0;
-            label3.Text = "LOGIN";
+            label3.Text = "CADASTRO";
             // 
             // TxtSenhaEmpresa
             // 
@@ -74,12 +75,13 @@
             TxtSenhaEmpresa.Name = "TxtSenhaEmpresa";
             TxtSenhaEmpresa.Size = new Size(253, 23);
             TxtSenhaEmpresa.TabIndex = 13;
+            TxtSenhaEmpresa.UseSystemPasswordChar = true;
             // 
             // label2
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.BackColor = Color.MistyRose;
+            label2.BackColor = Color.White;
             label2.Location = new Point(42, 186);
             label2.Name = "label2";
             label2.Size = new Size(39, 15);
@@ -98,9 +100,10 @@
             // BtnLogin
             // 
             BtnLogin.Anchor = AnchorStyles.None;
-            BtnLogin.BackColor = Color.LightCoral;
+            BtnLogin.BackColor = Color.FromArgb(180, 37, 41);
             BtnLogin.Cursor = Cursors.Hand;
             BtnLogin.FlatStyle = FlatStyle.Popup;
+            BtnLogin.ForeColor = Color.White;
             BtnLogin.Location = new Point(42, 312);
             BtnLogin.Name = "BtnLogin";
             BtnLogin.Size = new Size(253, 31);
@@ -113,7 +116,7 @@
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
-            label1.BackColor = Color.MistyRose;
+            label1.BackColor = Color.White;
             label1.Location = new Point(263, 105);
             label1.Name = "label1";
             label1.Size = new Size(36, 15);
@@ -123,7 +126,7 @@
             // panel1
             // 
             panel1.Anchor = AnchorStyles.None;
-            panel1.BackColor = Color.MistyRose;
+            panel1.BackColor = Color.White;
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(BtnAlterarUsuarios);
             panel1.Controls.Add(label5);
@@ -141,19 +144,21 @@
             // BtnAlterarUsuarios
             // 
             BtnAlterarUsuarios.Anchor = AnchorStyles.None;
+            BtnAlterarUsuarios.BackColor = Color.Silver;
+            BtnAlterarUsuarios.FlatStyle = FlatStyle.Flat;
             BtnAlterarUsuarios.Location = new Point(230, 364);
             BtnAlterarUsuarios.Name = "BtnAlterarUsuarios";
             BtnAlterarUsuarios.Size = new Size(131, 23);
             BtnAlterarUsuarios.TabIndex = 18;
             BtnAlterarUsuarios.Text = "Alterar usuarios";
-            BtnAlterarUsuarios.UseVisualStyleBackColor = true;
+            BtnAlterarUsuarios.UseVisualStyleBackColor = false;
             BtnAlterarUsuarios.Click += button1_Click;
             // 
             // label5
             // 
             label5.Anchor = AnchorStyles.None;
             label5.AutoSize = true;
-            label5.BackColor = Color.MistyRose;
+            label5.BackColor = Color.White;
             label5.Location = new Point(42, 126);
             label5.Name = "label5";
             label5.Size = new Size(40, 15);
@@ -177,12 +182,13 @@
             TxtConfirmaSenhaEmpresa.Name = "TxtConfirmaSenhaEmpresa";
             TxtConfirmaSenhaEmpresa.Size = new Size(253, 23);
             TxtConfirmaSenhaEmpresa.TabIndex = 19;
+            TxtConfirmaSenhaEmpresa.UseSystemPasswordChar = true;
             // 
             // label4
             // 
             label4.Anchor = AnchorStyles.None;
             label4.AutoSize = true;
-            label4.BackColor = Color.MistyRose;
+            label4.BackColor = Color.White;
             label4.Location = new Point(42, 230);
             label4.Name = "label4";
             label4.Size = new Size(100, 15);
@@ -199,7 +205,7 @@
             Controls.Add(label1);
             Controls.Add(panel1);
             Name = "FmrCadastrarUsuario";
-            Text = "CadastrarUsuario";
+            Text = "Cadastrar Usuario";
             Load += FmrCadastrarUsuario_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

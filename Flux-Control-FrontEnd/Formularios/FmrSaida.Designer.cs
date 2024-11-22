@@ -51,9 +51,10 @@
             // panel2
             // 
             panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel2.BackColor = SystemColors.ActiveBorder;
+            panel2.BackColor = Color.FromArgb(185, 3, 15);
             panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Controls.Add(label3);
+            panel2.ForeColor = Color.White;
             panel2.Location = new Point(1, 12);
             panel2.Name = "panel2";
             panel2.Size = new Size(1190, 44);
@@ -107,7 +108,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.Menu;
+            panel1.BackColor = Color.FromArgb(230, 163, 168);
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(label2);
             panel1.Controls.Add(TxtQuantidade);
@@ -190,7 +191,7 @@
             GrdEstoque.AllowUserToAddRows = false;
             GrdEstoque.AllowUserToDeleteRows = false;
             GrdEstoque.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            GrdEstoque.BackgroundColor = Color.FromArgb(240, 240, 216);
+            GrdEstoque.BackgroundColor = Color.White;
             GrdEstoque.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             GrdEstoque.Columns.AddRange(new DataGridViewColumn[] { idEstoque });
             GrdEstoque.GridColor = Color.Black;

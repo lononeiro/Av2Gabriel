@@ -46,22 +46,28 @@
             // 
             // BtnFechar
             // 
+            BtnFechar.BackColor = Color.FromArgb(185, 3, 15);
+            BtnFechar.FlatStyle = FlatStyle.Flat;
+            BtnFechar.ForeColor = Color.White;
             BtnFechar.Location = new Point(617, 50);
             BtnFechar.Name = "BtnFechar";
             BtnFechar.Size = new Size(97, 33);
             BtnFechar.TabIndex = 15;
             BtnFechar.Text = "Fechar";
-            BtnFechar.UseVisualStyleBackColor = true;
+            BtnFechar.UseVisualStyleBackColor = false;
             BtnFechar.Click += BtnFechar_Click;
             // 
             // BtnSalvar
             // 
+            BtnSalvar.BackColor = Color.FromArgb(185, 3, 15);
+            BtnSalvar.FlatStyle = FlatStyle.Flat;
+            BtnSalvar.ForeColor = Color.White;
             BtnSalvar.Location = new Point(617, 11);
             BtnSalvar.Name = "BtnSalvar";
             BtnSalvar.Size = new Size(97, 33);
             BtnSalvar.TabIndex = 14;
             BtnSalvar.Text = "Salvar";
-            BtnSalvar.UseVisualStyleBackColor = true;
+            BtnSalvar.UseVisualStyleBackColor = false;
             BtnSalvar.Click += BtnSalvar_Click;
             // 
             // TxtNome
@@ -85,7 +91,7 @@
             GrdUsuarios.AllowUserToAddRows = false;
             GrdUsuarios.AllowUserToDeleteRows = false;
             GrdUsuarios.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            GrdUsuarios.BackgroundColor = Color.FromArgb(192, 255, 255);
+            GrdUsuarios.BackgroundColor = Color.FromArgb(224, 224, 224);
             GrdUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             GrdUsuarios.Columns.AddRange(new DataGridViewColumn[] { Nome, BtnEditar, BtnExcluir });
             GrdUsuarios.GridColor = Color.Black;

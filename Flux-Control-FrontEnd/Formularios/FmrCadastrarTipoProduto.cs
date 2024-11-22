@@ -82,6 +82,7 @@ namespace Flux_Control_prototipo.Formularios
             {
                 GrdProdutos.AutoGenerateColumns = false;
                 GrdProdutos.Columns.Clear();
+                GrdProdutos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
                 DataGridViewTextBoxColumn colNome = new DataGridViewTextBoxColumn();
                 colNome.HeaderText = "Nome Tipo";

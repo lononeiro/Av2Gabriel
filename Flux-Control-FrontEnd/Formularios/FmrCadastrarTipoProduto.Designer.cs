@@ -41,22 +41,28 @@
             // 
             // BtnFechar
             // 
+            BtnFechar.BackColor = Color.FromArgb(185, 3, 15);
+            BtnFechar.FlatStyle = FlatStyle.Flat;
+            BtnFechar.ForeColor = Color.FromArgb(237, 233, 238);
             BtnFechar.Location = new Point(335, 50);
             BtnFechar.Name = "BtnFechar";
             BtnFechar.Size = new Size(97, 33);
             BtnFechar.TabIndex = 10;
             BtnFechar.Text = "Fechar";
-            BtnFechar.UseVisualStyleBackColor = true;
+            BtnFechar.UseVisualStyleBackColor = false;
             BtnFechar.Click += BtnFechar_Click;
             // 
             // BtnSalvar
             // 
+            BtnSalvar.BackColor = Color.FromArgb(185, 3, 15);
+            BtnSalvar.FlatStyle = FlatStyle.Flat;
+            BtnSalvar.ForeColor = Color.FromArgb(237, 233, 238);
             BtnSalvar.Location = new Point(232, 50);
             BtnSalvar.Name = "BtnSalvar";
             BtnSalvar.Size = new Size(97, 33);
             BtnSalvar.TabIndex = 9;
             BtnSalvar.Text = "Salvar";
-            BtnSalvar.UseVisualStyleBackColor = true;
+            BtnSalvar.UseVisualStyleBackColor = false;
             BtnSalvar.Click += BtnSalvar_Click;
             // 
             // TxtNome
@@ -80,7 +86,7 @@
             GrdProdutos.AllowUserToAddRows = false;
             GrdProdutos.AllowUserToDeleteRows = false;
             GrdProdutos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            GrdProdutos.BackgroundColor = Color.FromArgb(192, 255, 255);
+            GrdProdutos.BackgroundColor = Color.White;
             GrdProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             GrdProdutos.Columns.AddRange(new DataGridViewColumn[] { Nome, BtnEditar, BtnExcluir });
             GrdProdutos.GridColor = Color.Black;
@@ -117,6 +123,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(237, 233, 238);
             ClientSize = new Size(800, 450);
             Controls.Add(BtnFechar);
             Controls.Add(BtnSalvar);

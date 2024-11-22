@@ -45,7 +45,7 @@ namespace Flux_Control_prototipo.Formularios
         {
             GrdEstoque.AutoGenerateColumns = false;
             GrdEstoque.Columns.Clear();
-
+            GrdEstoque.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             // Nome do Produto
 
             DataGridViewTextBoxColumn colIdEstoque = new DataGridViewTextBoxColumn

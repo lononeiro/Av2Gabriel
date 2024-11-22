@@ -46,7 +46,7 @@
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
-            label1.BackColor = Color.MistyRose;
+            label1.BackColor = Color.White;
             label1.Location = new Point(42, 85);
             label1.Name = "label1";
             label1.Size = new Size(36, 15);
@@ -56,9 +56,10 @@
             // BtnLogin
             // 
             BtnLogin.Anchor = AnchorStyles.None;
-            BtnLogin.BackColor = Color.LightCoral;
+            BtnLogin.BackColor = Color.FromArgb(180, 37, 41);
             BtnLogin.Cursor = Cursors.Hand;
             BtnLogin.FlatStyle = FlatStyle.Popup;
+            BtnLogin.ForeColor = Color.Transparent;
             BtnLogin.Location = new Point(42, 251);
             BtnLogin.Name = "BtnLogin";
             BtnLogin.Size = new Size(253, 31);
@@ -91,7 +92,7 @@
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.BackColor = Color.MistyRose;
+            label2.BackColor = Color.White;
             label2.Location = new Point(42, 150);
             label2.Name = "label2";
             label2.Size = new Size(39, 15);
@@ -112,7 +113,7 @@
             // panel3
             // 
             panel3.Anchor = AnchorStyles.None;
-            panel3.BackColor = Color.MistyRose;
+            panel3.BackColor = Color.White;
             panel3.BorderStyle = BorderStyle.FixedSingle;
             panel3.Controls.Add(BtnLogin);
             panel3.Controls.Add(label1);
@@ -127,9 +128,10 @@
             // panel2
             // 
             panel2.Anchor = AnchorStyles.None;
-            panel2.BackColor = Color.PeachPuff;
+            panel2.BackColor = Color.FromArgb(180, 37, 41);
             panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Controls.Add(label3);
+            panel2.ForeColor = Color.White;
             panel2.Location = new Point(235, 12);
             panel2.Name = "panel2";
             panel2.Size = new Size(366, 44);

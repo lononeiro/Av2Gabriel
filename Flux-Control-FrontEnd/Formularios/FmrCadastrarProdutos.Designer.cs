@@ -45,7 +45,7 @@
             GrdProdutos.AllowUserToAddRows = false;
             GrdProdutos.AllowUserToDeleteRows = false;
             GrdProdutos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            GrdProdutos.BackgroundColor = Color.FromArgb(192, 255, 255);
+            GrdProdutos.BackgroundColor = Color.White;
             GrdProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             GrdProdutos.GridColor = Color.Black;
             GrdProdutos.Location = new Point(34, 92);
@@ -72,32 +72,41 @@
             // 
             // BtnSalvar
             // 
-            BtnSalvar.Location = new Point(368, 57);
+            BtnSalvar.BackColor = Color.FromArgb(185, 3, 15);
+            BtnSalvar.FlatStyle = FlatStyle.Flat;
+            BtnSalvar.ForeColor = Color.White;
+            BtnSalvar.Location = new Point(368, 53);
             BtnSalvar.Name = "BtnSalvar";
             BtnSalvar.Size = new Size(97, 33);
             BtnSalvar.TabIndex = 4;
             BtnSalvar.Text = "Salvar";
-            BtnSalvar.UseVisualStyleBackColor = true;
+            BtnSalvar.UseVisualStyleBackColor = false;
             BtnSalvar.Click += BtnSalvar_Click;
             // 
             // BtnFechar
             // 
-            BtnFechar.Location = new Point(471, 57);
+            BtnFechar.BackColor = Color.FromArgb(185, 3, 15);
+            BtnFechar.FlatStyle = FlatStyle.Flat;
+            BtnFechar.ForeColor = Color.White;
+            BtnFechar.Location = new Point(681, 45);
             BtnFechar.Name = "BtnFechar";
             BtnFechar.Size = new Size(97, 33);
             BtnFechar.TabIndex = 5;
             BtnFechar.Text = "Fechar";
-            BtnFechar.UseVisualStyleBackColor = true;
+            BtnFechar.UseVisualStyleBackColor = false;
             BtnFechar.Click += BtnFechar_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(684, 53);
-            button1.Name = "BtnAlterarUsuarios";
+            button1.BackColor = Color.FromArgb(185, 3, 15);
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(471, 53);
+            button1.Name = "button1";
             button1.Size = new Size(94, 33);
             button1.TabIndex = 6;
             button1.Text = "Cadastrar Tipo";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // cmbTipoProduto
@@ -110,12 +119,15 @@
             // 
             // button2
             // 
-            button2.Location = new Point(684, 12);
+            button2.BackColor = Color.FromArgb(185, 3, 15);
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(681, 12);
             button2.Name = "button2";
             button2.Size = new Size(97, 23);
             button2.TabIndex = 8;
             button2.Text = "Atualizar";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += RecarregaClick;
             // 
             // label2
@@ -131,6 +143,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(237, 233, 238);
             ClientSize = new Size(800, 450);
             Controls.Add(label2);
             Controls.Add(button2);

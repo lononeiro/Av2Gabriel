@@ -49,7 +49,7 @@
             GrdEstoque.AllowUserToAddRows = false;
             GrdEstoque.AllowUserToDeleteRows = false;
             GrdEstoque.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            GrdEstoque.BackgroundColor = Color.FromArgb(240, 240, 216);
+            GrdEstoque.BackgroundColor = Color.WhiteSmoke;
             GrdEstoque.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             GrdEstoque.Columns.AddRange(new DataGridViewColumn[] { idEstoque });
             GrdEstoque.GridColor = Color.Black;
@@ -71,10 +71,10 @@
             // 
             // BtnEmitirRelatorio
             // 
-            BtnEmitirRelatorio.BackColor = Color.Silver;
+            BtnEmitirRelatorio.BackColor = Color.White;
             BtnEmitirRelatorio.Cursor = Cursors.Hand;
             BtnEmitirRelatorio.FlatStyle = FlatStyle.Flat;
-            BtnEmitirRelatorio.Location = new Point(20, 279);
+            BtnEmitirRelatorio.Location = new Point(62, 353);
             BtnEmitirRelatorio.Name = "BtnEmitirRelatorio";
             BtnEmitirRelatorio.Size = new Size(142, 40);
             BtnEmitirRelatorio.TabIndex = 2;
@@ -84,10 +84,10 @@
             // 
             // BtnRegistrarEntrada
             // 
-            BtnRegistrarEntrada.BackColor = Color.Silver;
+            BtnRegistrarEntrada.BackColor = Color.White;
             BtnRegistrarEntrada.Cursor = Cursors.Hand;
             BtnRegistrarEntrada.FlatStyle = FlatStyle.Flat;
-            BtnRegistrarEntrada.Location = new Point(20, 162);
+            BtnRegistrarEntrada.Location = new Point(62, 189);
             BtnRegistrarEntrada.Name = "BtnRegistrarEntrada";
             BtnRegistrarEntrada.Size = new Size(142, 40);
             BtnRegistrarEntrada.TabIndex = 3;
@@ -97,10 +97,10 @@
             // 
             // BtnRegistrarSaida
             // 
-            BtnRegistrarSaida.BackColor = Color.Silver;
+            BtnRegistrarSaida.BackColor = Color.White;
             BtnRegistrarSaida.Cursor = Cursors.Hand;
             BtnRegistrarSaida.FlatStyle = FlatStyle.Flat;
-            BtnRegistrarSaida.Location = new Point(20, 219);
+            BtnRegistrarSaida.Location = new Point(62, 268);
             BtnRegistrarSaida.Name = "BtnRegistrarSaida";
             BtnRegistrarSaida.Size = new Size(142, 40);
             BtnRegistrarSaida.TabIndex = 4;
@@ -111,25 +111,25 @@
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            panel1.BackColor = Color.FromArgb(192, 255, 255);
+            panel1.BackColor = Color.FromArgb(180, 37, 41);
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(button1);
             panel1.Controls.Add(BtnEmitirRelatorio);
             panel1.Controls.Add(BtnCadastrarProduto);
             panel1.Controls.Add(BtnRegistrarEntrada);
             panel1.Controls.Add(BtnRegistrarSaida);
-            panel1.Location = new Point(39, 1);
+            panel1.Location = new Point(-4, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(185, 641);
+            panel1.Size = new Size(265, 641);
             panel1.TabIndex = 29;
             // 
             // button1
             // 
-            button1.BackColor = Color.Silver;
+            button1.BackColor = Color.White;
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(20, 335);
-            button1.Name = "BtnAlterarUsuarios";
+            button1.Location = new Point(62, 436);
+            button1.Name = "button1";
             button1.Size = new Size(142, 40);
             button1.TabIndex = 31;
             button1.Text = "Gerir Usuarios";
@@ -138,10 +138,10 @@
             // 
             // BtnCadastrarProduto
             // 
-            BtnCadastrarProduto.BackColor = Color.Silver;
+            BtnCadastrarProduto.BackColor = Color.White;
             BtnCadastrarProduto.Cursor = Cursors.Hand;
             BtnCadastrarProduto.FlatStyle = FlatStyle.Flat;
-            BtnCadastrarProduto.Location = new Point(20, 101);
+            BtnCadastrarProduto.Location = new Point(62, 108);
             BtnCadastrarProduto.Name = "BtnCadastrarProduto";
             BtnCadastrarProduto.Size = new Size(142, 40);
             BtnCadastrarProduto.TabIndex = 30;
@@ -161,19 +161,21 @@
             // 
             // button3
             // 
-            button3.Location = new Point(267, 12);
+            button3.BackColor = Color.FromArgb(241, 229, 228);
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Location = new Point(308, 14);
             button3.Name = "button3";
             button3.Size = new Size(128, 23);
             button3.TabIndex = 32;
             button3.Text = "Atualizar";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // FmrEstoque
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.WhiteSmoke;
+            BackColor = Color.FromArgb(237, 233, 238);
             ClientSize = new Size(1107, 620);
             Controls.Add(button3);
             Controls.Add(GrdEstoque);

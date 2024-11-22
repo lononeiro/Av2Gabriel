@@ -95,6 +95,7 @@ namespace Flux_Control_prototipo.Formularios
             // Configurar a grid para não gerar colunas automaticamente
             GrdProdutos.AutoGenerateColumns = false;
             GrdProdutos.Columns.Clear();
+            GrdProdutos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
             // Adicionar coluna para o nome do produto
             DataGridViewTextBoxColumn colNome = new DataGridViewTextBoxColumn();

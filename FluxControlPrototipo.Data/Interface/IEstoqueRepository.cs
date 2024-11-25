@@ -19,5 +19,6 @@ namespace FluxControl.Data.Interface
         void Excluir(Estoque estoque);
         void SelecionarProdutoPeloLote(int lote);
         void AtualizarQuantidade(int idProduto, int quantidade);
+        Estoque SelecionarProdutoPelaChave(int id);
     }
 }

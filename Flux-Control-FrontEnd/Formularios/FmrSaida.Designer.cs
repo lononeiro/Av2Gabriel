@@ -35,6 +35,7 @@
             TxtPrecoTotal = new TextBox();
             label4 = new Label();
             panel1 = new Panel();
+            label5 = new Label();
             label2 = new Label();
             TxtQuantidade = new TextBox();
             BtnAdicionar = new Button();
@@ -43,6 +44,7 @@
             BtnCancelar = new Button();
             GrdEstoque = new DataGridView();
             idEstoque = new DataGridViewTextBoxColumn();
+            TxtDesconto = new TextBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)GrdEstoque).BeginInit();
@@ -110,6 +112,8 @@
             // 
             panel1.BackColor = Color.FromArgb(230, 163, 168);
             panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(TxtDesconto);
+            panel1.Controls.Add(label5);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(TxtQuantidade);
             panel1.Controls.Add(label1);
@@ -119,6 +123,15 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(284, 438);
             panel1.TabIndex = 23;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(3, 291);
+            label5.Name = "label5";
+            label5.Size = new Size(57, 15);
+            label5.TabIndex = 31;
+            label5.Text = "Desconto";
             // 
             // label2
             // 
@@ -206,6 +219,13 @@
             idEstoque.HeaderText = "idEstoque";
             idEstoque.Name = "idEstoque";
             // 
+            // TxtDesconto
+            // 
+            TxtDesconto.Location = new Point(7, 309);
+            TxtDesconto.Name = "TxtDesconto";
+            TxtDesconto.Size = new Size(100, 23);
+            TxtDesconto.TabIndex = 32;
+            // 
             // FmrSaida
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -247,5 +267,7 @@
         private Button BtnCancelar;
         private DataGridView GrdEstoque;
         private DataGridViewTextBoxColumn idEstoque;
+        private Label label5;
+        private TextBox TxtDesconto;
     }
 }

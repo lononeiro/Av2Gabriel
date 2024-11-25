@@ -9,7 +9,7 @@ namespace FluxControl.Data.Interface
 {
     public interface ISaidaRepository
     {
-        void RegistrarSaida(int idestoque, int quantidade, double precoUnitario, int lote);
+        void RegistrarSaida(int idestoque, int quantidade, double precoUnitario, int lote, double desconto);
         public Saida SelecionarPeloLote(int produtoId, int lote);
 
         void Excluir(Saida oSaida);

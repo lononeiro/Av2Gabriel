@@ -48,6 +48,9 @@ namespace Flux_Control_prototipo.Formularios
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
 
+            var dataagora = DateTime.Now;
+            var dataagora2 = dataagora.AddSeconds(-1000);
+
             if (ComboBoxProdutos.SelectedIndex == -1 || string.IsNullOrWhiteSpace(TxtDescricao.Text) ||
                 string.IsNullOrWhiteSpace(TxtQuantidade.Text) || string.IsNullOrWhiteSpace(TxtPrecoCompra.Text) ||
                 string.IsNullOrWhiteSpace(TxtPrecoVenda.Text) || string.IsNullOrWhiteSpace(TxtLote.Text))
@@ -78,60 +81,67 @@ namespace Flux_Control_prototipo.Formularios
             }
             else
             {
-
-                try
+                if (DtpDataValidade.Value < dataagora2)
                 {
-
-                    int produtoId = (int)ComboBoxProdutos.SelectedValue;
-                    Entrada entrada = new Entrada
-                    {
-                        DescricaoEntrada = TxtDescricao.Text,
-                        ProdutoIdProduto = produtoId,
-                        QuantidadeEntrada = int.Parse(TxtQuantidade.Text),
-                        PrecoCompra = (double)precoCompra,
-                        PrecoVenda = (double)precoVenda,
-                        Lote = int.Parse(TxtLote.Text),
-                    };
-
-                    if (CheckBoxAgora.Checked)
-                    {
-                        entrada.DataEntrada = DateTime.Now;
-
-                    }
-                    else
-                    {
-                        entrada.DataEntrada = dtpDataEntrada.Value;
-                    }
-
-
-                    if (!int.TryParse(TxtLote.Text, out int lote))
-                    {
-                        MessageBox.Show("O lote deve ser um número inteiro.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return;
-                    }
-
-                    Estoque oEstoque = new Estoque
-                    {
-                        ProdutoIdProduto = produtoId,
-                        Descricao = TxtDescricao.Text,
-                        PrecoVendaEstoque = (double)precoVenda,
-                        QuantidadeEstoque = int.Parse(TxtQuantidade.Text),
-                        LoteEstoque = int.Parse(TxtLote.Text),
-                        DataValidadeEstoque = DtpDataValidade.Value
-
-                    };
-
-
-                    estoqueRepository.Incluir(oEstoque);
-                    entradaRepository.Incluir(entrada);
-
-                    LimparCampos();
-                    MessageBox.Show("Cadastro de entrada concluído", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                    MessageBox.Show("Data inválida.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show($"Erro ao registrar entrada: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    try
+                    {
+
+                        int produtoId = (int)ComboBoxProdutos.SelectedValue;
+                        Entrada entrada = new Entrada
+                        {
+                            DescricaoEntrada = TxtDescricao.Text,
+                            ProdutoIdProduto = produtoId,
+                            QuantidadeEntrada = int.Parse(TxtQuantidade.Text),
+                            PrecoCompra = (double)precoCompra,
+                            PrecoVenda = (double)precoVenda,
+                            Lote = int.Parse(TxtLote.Text),
+                        };
+
+                        if (CheckBoxAgora.Checked)
+                        {
+                            entrada.DataEntrada = DateTime.Now;
+
+                        }
+                        else
+                        {
+                            entrada.DataEntrada = dtpDataEntrada.Value;
+                        }
+
+
+                        if (!int.TryParse(TxtLote.Text, out int lote))
+                        {
+                            MessageBox.Show("O lote deve ser um número inteiro.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+
+                        Estoque oEstoque = new Estoque
+                        {
+                            ProdutoIdProduto = produtoId,
+                            Descricao = TxtDescricao.Text,
+                            PrecoVendaEstoque = (double)precoVenda,
+                            QuantidadeEstoque = int.Parse(TxtQuantidade.Text),
+                            LoteEstoque = int.Parse(TxtLote.Text),
+                            DataValidadeEstoque = DtpDataValidade.Value
+
+                        };
+
+
+                        estoqueRepository.Incluir(oEstoque);
+                        entradaRepository.Incluir(entrada);
+
+                        LimparCampos();
+                        MessageBox.Show("Cadastro de entrada concluído", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Erro ao registrar entrada: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }

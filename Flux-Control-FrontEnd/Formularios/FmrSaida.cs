@@ -29,10 +29,7 @@ namespace Flux_Control_prototipo.Formularios
 
         private void BtnEncerrar_Click(object sender, EventArgs e)
         {
-
             SalvarSaida();
-
-
             this.Close();
         }
 
@@ -44,18 +41,12 @@ namespace Flux_Control_prototipo.Formularios
             CarregaGrid();
             this.Close();
         }
+
         private bool VerificaQuantidade(int id, int quantidade)
         {
             Estoque estoque = estoqueRepository.SelecionarPelaChave(id);
 
-            if (estoque.QuantidadeEstoque > quantidade)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return estoque.QuantidadeEstoque >= quantidade;
         }
 
         private void CarregaGrid()
@@ -142,7 +133,6 @@ namespace Flux_Control_prototipo.Formularios
                     return;
                 }
 
-                // Carrega o produto atual selecionado para ser adicionado
                 produtoAtualSelecionado = estoqueRepository.SelecionarPelaChave(idEstoque.Value);
 
                 if (produtoAtualSelecionado == null)
@@ -152,15 +142,64 @@ namespace Flux_Control_prototipo.Formularios
                 }
 
                 string nomeProduto = produtoRepository.SelecionarNomePelaChave(produtoAtualSelecionado.ProdutoIdProduto);
-
                 TxtProduto.Text = nomeProduto;
-
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Erro ao tentar processar o item: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        //private void BtnAdicionar_Click(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        if (produtoAtualSelecionado == null)
+        //        {
+        //            MessageBox.Show("Nenhum produto selecionado.");
+        //            return;
+        //        }
+
+        //        int quantidadeSaida = Convert.ToInt32(TxtQuantidade.Text);
+        //        if (VerificaQuantidade(produtoAtualSelecionado.idEstoque, quantidadeSaida))
+        //        {
+        //            double desconto = 0;
+
+        //            if (!string.IsNullOrEmpty(TxtDesconto.Text))
+        //            {
+        //                desconto = Convert.ToDouble(TxtDesconto.Text);
+        //                if (desconto < 0 || desconto > 100)
+        //                {
+        //                    MessageBox.Show("O desconto deve estar entre 0 e 100%.");
+        //                    return;
+        //                }
+        //            }
+
+        //            produtoAtualSelecionado.QuantidadeEstoque = quantidadeSaida;
+
+        //            produtosSelecionados.Add(produtoAtualSelecionado);
+
+        //            precoTotal += produtoAtualSelecionado.PrecoVendaEstoque * (1 - desconto / 100) * quantidadeSaida;
+        //            AtualizarPrecoTotal();
+
+        //            produtoAtualSelecionado = null;
+        //            TxtProduto.Clear();
+        //            TxtQuantidade.Clear();
+        //            TxtDesconto.Clear();
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show($"Erro ao adicionar produto: Quantidade insuficiente no estoque.");
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show($"Erro ao adicionar produto: {ex.Message}");
+        //    }
+        //}
+
+
+        private List<ProdutoComDesconto> produtosSelecionadosComDesconto = new List<ProdutoComDesconto>();
 
         private void BtnAdicionar_Click(object sender, EventArgs e)
         {
@@ -171,25 +210,40 @@ namespace Flux_Control_prototipo.Formularios
                     MessageBox.Show("Nenhum produto selecionado.");
                     return;
                 }
+
                 int quantidadeSaida = Convert.ToInt32(TxtQuantidade.Text);
                 if (VerificaQuantidade(produtoAtualSelecionado.idEstoque, quantidadeSaida))
                 {
-                    produtoAtualSelecionado.QuantidadeEstoque = quantidadeSaida;
+                    double desconto = 0;
 
-                    //if (produtosSelecionados.Any(p => p.idEstoque == produtoAtualSelecionado.idEstoque))
-                    //{
-                    //    MessageBox.Show("Este produto já foi adicionado.");
-                    //    return;
-                    //}
+                    if (!string.IsNullOrEmpty(TxtDesconto.Text))
+                    {
+                        desconto = Convert.ToDouble(TxtDesconto.Text);
+                        if (desconto < 0 || desconto > 100)
+                        {
+                            MessageBox.Show("O desconto deve estar entre 0 e 100%.");
+                            return;
+                        }
+                    }
 
-                    produtosSelecionados.Add(produtoAtualSelecionado);
+                    // Cria uma instância de ProdutoComDesconto e adiciona à lista de produtos selecionados
+                    var produtoComDesconto = new ProdutoComDesconto
+                    {
+                        Produto = produtoAtualSelecionado,
+                        Desconto = desconto
+                    };
+                    produtosSelecionadosComDesconto.Add(produtoComDesconto);
 
-                    precoTotal += produtoAtualSelecionado.PrecoVendaEstoque * produtoAtualSelecionado.QuantidadeEstoque;
+                    // Atualiza o preço total com o desconto
+                    double precoComDesconto = produtoAtualSelecionado.PrecoVendaEstoque * (1 - desconto / 100);
+                    precoTotal += precoComDesconto * quantidadeSaida;
                     AtualizarPrecoTotal();
 
-                    produtoAtualSelecionado = null; // Limpa o produto atual após adicionar
+                    // Limpa os campos após adicionar
+                    produtoAtualSelecionado = null;
                     TxtProduto.Clear();
                     TxtQuantidade.Clear();
+                    TxtDesconto.Clear();
                 }
                 else
                 {
@@ -202,10 +256,33 @@ namespace Flux_Control_prototipo.Formularios
             }
         }
 
-        private void AtualizarPrecoTotal()
-        {
-            TxtPrecoTotal.Text = $"Preço Total: {precoTotal:C}";
-        }
+        //private void SalvarSaida()
+        //{
+        //    var desconto = Convert.ToInt64(TxtDesconto.Text);
+        //    try
+        //    {
+        //        StringBuilder produtosSaida = new StringBuilder("Saídas registradas:\n");
+
+        //        foreach (var produto in produtosSelecionados)
+        //        {
+        //            string nomeProduto = produtoRepository.SelecionarNomePelaChave(produto.ProdutoIdProduto);
+
+        //            saidaRepository.RegistrarSaida(produto.idEstoque, produto.QuantidadeEstoque, produto.PrecoVendaEstoque, produto.LoteEstoque, (double)desconto);
+        //            produtosSaida.AppendLine($"{nomeProduto} - Quantidade: {produto.QuantidadeEstoque} - Desconto: {TxtDesconto.Text}%");
+        //        }
+
+        //        MessageBox.Show(produtosSaida.ToString(), "Registro de Saída");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show($"Erro ao registrar saída: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    }
+
+        //    produtosSelecionados.Clear();
+        //    precoTotal = 0;
+        //    AtualizarPrecoTotal();
+        //    CarregaGrid();
+        //}
 
         private void SalvarSaida()
         {
@@ -213,26 +290,34 @@ namespace Flux_Control_prototipo.Formularios
             {
                 StringBuilder produtosSaida = new StringBuilder("Saídas registradas:\n");
 
-                foreach (var produto in produtosSelecionados)
+                foreach (var item in produtosSelecionadosComDesconto)
                 {
-                    string nomeProduto = produtoRepository.SelecionarNomePelaChave(produto.ProdutoIdProduto);
-                    estoqueRepository.AtualizarQuantidade(produto.idEstoque, produto.QuantidadeEstoque);
-                    saidaRepository.RegistrarSaida(produto.idEstoque, produto.QuantidadeEstoque, produto.PrecoVendaEstoque, produto.LoteEstoque);
+                    string nomeProduto = produtoRepository.SelecionarNomePelaChave(item.Produto.ProdutoIdProduto);
 
-                    produtosSaida.AppendLine($"{nomeProduto} - Quantidade: {produto.QuantidadeEstoque}");
+                    // Registra a saída para o produto com o desconto específico
+                    saidaRepository.RegistrarSaida(item.Produto.idEstoque, item.Produto.QuantidadeEstoque, item.Produto.PrecoVendaEstoque, item.Produto.LoteEstoque, item.Desconto);
+
+                    // Adiciona o produto e o desconto no relatório
+                    produtosSaida.AppendLine($"{nomeProduto} - Quantidade: {item.Produto.QuantidadeEstoque} - Desconto: {item.Desconto:F2}%");
                 }
+
                 MessageBox.Show(produtosSaida.ToString(), "Registro de Saída");
             }
-
             catch (Exception ex)
             {
-                MessageBox.Show($"Erro ao registrar saida: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Erro ao registrar saída: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            produtosSelecionados.Clear();
+
+            // Limpa as seleções e atualiza o grid
+            produtosSelecionadosComDesconto.Clear();
             precoTotal = 0;
             AtualizarPrecoTotal();
             CarregaGrid();
         }
 
+        private void AtualizarPrecoTotal()
+        {
+            TxtPrecoTotal.Text = $"Preço Total: {precoTotal:C}";
+        }
     }
 }

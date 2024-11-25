@@ -52,14 +52,58 @@ namespace Flux_Control_prototipo.Formularios
 
         private void CarregarRelatorio(DateTime dataInicio, DateTime dataFim)
         {
-            // Obtenha as entradas e saídas no intervalo de datas
-            var entradas = entradaRepository.SelecionarPorIntervaloDeTempo(dataInicio, dataFim);
-            var saidas = saidaRepository.SelecionarPorIntervaloDeTempo(dataInicio, dataFim);
+            // Verifica se "Todos os Produtos" está selecionado
+            bool incluirTodosProdutos = CheckBoxTodosProdutos.Checked;
 
-            // Mapeie para um formato exibível nos grids
+            // Lista de IDs de produtos selecionados
+            var produtosSelecionados = ChecklistProdutos.CheckedItems
+                .Cast<dynamic>() // Use o tipo apropriado, como Produto, se necessário
+                .Select(p => (int)p.IdProduto)
+                .ToList();
+
+            // Obtenha entradas e saídas com base na seleção de produtos
+            var entradas = entradaRepository.SelecionarPorIntervaloDeTempo(dataInicio, dataFim)
+                .Where(e => incluirTodosProdutos || produtosSelecionados.Contains(e.ProdutoIdProduto))
+                .ToList();
+
+            var saidas = saidaRepository.SelecionarPorIntervaloDeTempo(dataInicio, dataFim)
+                .Where(s => incluirTodosProdutos || produtosSelecionados.Contains(s.ProdutoIdProduto))
+                .ToList();
+
+            // Cálculo do lucro
+            double lucroTotal = saidas.Sum(s => s.PrecoSaida) - entradas.Sum(e => e.PrecoCompra * e.QuantidadeEntrada);
+
+            // Preço bruto (soma total de vendas)
+            double precoBruto = saidas.Sum(s => s.PrecoSaida);
+
+            // Produto mais vendido
+            var produtoMaisVendido = saidas
+                .GroupBy(s => s.ProdutoIdProduto)
+                .OrderByDescending(g => g.Sum(s => s.QuantidadeSaida))
+                .Select(g => new
+                {
+                    IdProduto = g.Key,
+                    NomeProduto = produtoRepository.SelecionarNomePelaChave(g.Key),
+                    QuantidadeVendida = g.Sum(s => s.QuantidadeSaida)
+                })
+                .FirstOrDefault();
+
+            
+            MessageBox.Show($"Lucro Total: {lucroTotal:C}\n" +
+                            $"Preço Bruto Total: {precoBruto:C}\n" +
+                            $"Produto Mais Vendido: {produtoMaisVendido?.NomeProduto} ({produtoMaisVendido?.QuantidadeVendida} unidades)",
+                            "Análise do Relatório", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+            TxtProdutoVendido.Text = produtoMaisVendido.NomeProduto;
+            TxtQuantidadeVendida.Text = Convert.ToString(produtoMaisVendido.QuantidadeVendida);
+            TxtValorBruto.Text = Convert.ToString(precoBruto.ToString());
+            TxtValorLiquido.Text = Convert.ToString(lucroTotal.ToString());
+
+            // Carregar os dados nos grids
             var entradasDisplay = entradas.Select(e => new
             {
-                NomeProduto = produtoRepository.SelecionarNomePelaChave(e.ProdutoIdProduto), // Assumindo que existe uma relação com Produto
+                NomeProduto = produtoRepository.SelecionarNomePelaChave(e.ProdutoIdProduto),
                 Lote = e.Lote,
                 Data = e.DataEntrada,
                 Quantidade = e.QuantidadeEntrada,
@@ -68,7 +112,7 @@ namespace Flux_Control_prototipo.Formularios
 
             var saidasDisplay = saidas.Select(s => new
             {
-                NomeProduto = produtoRepository.SelecionarNomePelaChave(s.ProdutoIdProduto), // Assumindo que existe uma relação com Produto
+                NomeProduto = produtoRepository.SelecionarNomePelaChave(s.ProdutoIdProduto),
                 LoteSaida = s.LoteSaida,
                 Data = s.DataSaida,
                 Quantidade = s.QuantidadeSaida,
@@ -76,18 +120,16 @@ namespace Flux_Control_prototipo.Formularios
                 PrecoTotal = s.PrecoSaida,
             }).ToList();
 
-            // Carregar os dados nos grids
             grdEntradas.DataSource = entradasDisplay;
             grdSaidas.DataSource = saidasDisplay;
 
-            // Configurar os nomes das colunas para os grids de entrada
+            // Configurar os nomes das colunas para os grids
             grdEntradas.Columns["NomeProduto"].HeaderText = "Nome Produto";
             grdEntradas.Columns["Lote"].HeaderText = "Lote";
             grdEntradas.Columns["Data"].HeaderText = "Data";
             grdEntradas.Columns["Quantidade"].HeaderText = "Quantidade";
             grdEntradas.Columns["PrecoTotal"].HeaderText = "Preço Total";
 
-            // Configurar os nomes das colunas para os grids de saída
             grdSaidas.Columns["NomeProduto"].HeaderText = "Nome Produto";
             grdSaidas.Columns["LoteSaida"].HeaderText = "Lote";
             grdSaidas.Columns["Data"].HeaderText = "Data";
@@ -126,11 +168,31 @@ namespace Flux_Control_prototipo.Formularios
             grdSaidas.ReadOnly = true;
             grdSaidas.BackgroundColor = Color.LightCoral; // Fundo vermelho claro
             grdSaidas.BorderStyle = BorderStyle.Fixed3D;
+
+
+
+            var produtos = produtoRepository.SelecionarTodos();
+
+            ChecklistProdutos.DataSource = produtos;
+
+            ChecklistProdutos.DisplayMember = "Nome";
+            ChecklistProdutos.ValueMember = "IdProduto";
+
         }
 
         private void BtnSair_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void CheckBoxTodosProdutos_CheckedChanged(object sender, EventArgs e)
+        {
+            ChecklistProdutos.Enabled = !CheckBoxTodosProdutos.Checked;
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

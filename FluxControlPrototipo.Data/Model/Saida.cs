@@ -18,4 +18,6 @@ public partial class Saida
     public int LoteSaida { get; set; }
 
     public virtual Produto ProdutoIdProdutoNavigation { get; set; } = null!;
+    public double Desconto { get; set; }
+
 }

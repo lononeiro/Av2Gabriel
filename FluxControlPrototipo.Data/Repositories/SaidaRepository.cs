@@ -19,7 +19,7 @@ namespace FluxControl.Data.Repositories
             db = context;
         }
 
-        public void RegistrarSaida(int idestoque, int quantidade, double precoUnitario, int lote)
+        public void RegistrarSaida(int idestoque, int quantidade, double precoUnitario, int lote, double desconto)
         {
             // Localiza o produto no estoque pelo ID
             var produtoEstoque = db.Estoques.FirstOrDefault(p => p.idEstoque == idestoque);
@@ -29,15 +29,18 @@ namespace FluxControl.Data.Repositories
                 // Atualiza a quantidade no estoque
                 produtoEstoque.QuantidadeEstoque -= quantidade;
 
+                // Calcula o preço com desconto aplicado
+                double precoComDesconto = precoUnitario * (1 - desconto / 100);
+
                 // Cria uma nova entrada de saída
                 var novaSaida = new Saida
                 {
                     ProdutoIdProduto = produtoEstoque.ProdutoIdProduto,
                     DataSaida = DateTime.Now,
-                    PrecoSaida = precoUnitario * quantidade,
+                    PrecoSaida = precoComDesconto * quantidade, // Preço final com desconto aplicado
                     QuantidadeSaida = quantidade,
                     LoteSaida = lote,
-                    
+                    Desconto = desconto // Armazena o desconto aplicado
                 };
 
                 // Adiciona a nova saída ao banco de dados

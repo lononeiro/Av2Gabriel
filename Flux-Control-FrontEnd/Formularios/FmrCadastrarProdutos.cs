@@ -13,7 +13,7 @@ namespace Flux_Control_prototipo.Formularios
         private bool _Incluir = true;
         private ProdutoRepo oProdutoSelecionado = null;
         private ProdutoRepository produtoRepository = new ProdutoRepository(new DbFluxControlContext());
-
+        private EstoqueRepository estoqueRepository = new EstoqueRepository(new DbFluxControlContext());
         public FmrCadastrarProdutos()
         {
             InitializeComponent();
@@ -174,30 +174,35 @@ namespace Flux_Control_prototipo.Formularios
                             // Confirmar a exclusão
                             if (MessageBox.Show("Deseja realmente excluir este produto?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                             {
-                                // Recupera o ID do tipo do produto pelo nome do tipo de produto
+                                
                                 var tipoProduto = tipoProdutoRepository.SelecionarTodos()
                                                   .FirstOrDefault(t => t.Nome == produtoSelecionado.TipoProdutoNome);
 
-                                if (tipoProduto != null)
-                                {
-                                    // Procura o produto específico com o ID do tipo de produto
-                                    var produtoParaExcluir = produtoRepository.SelecionarTodos().FirstOrDefault(p => p.Nome == produtoSelecionado.Nome && p.TipoProdutoIdTipoProduto == tipoProduto.IdTipoProduto);
+                                var produtoParaExcluir = produtoRepository.SelecionarTodos()
+                                    .FirstOrDefault(p => p.Nome == produtoSelecionado.Nome && p.TipoProdutoIdTipoProduto == tipoProduto.IdTipoProduto);
 
-                                    if (produtoParaExcluir != null)
+                                if (produtoParaExcluir != null)
+                                {
+                                    // Verifica se o produto está presente no estoque
+                                    var produtoNoEstoque = estoqueRepository.SelecionarProdutoPelaChave(produtoParaExcluir.IdProduto);
+
+                                    if (produtoNoEstoque == null)
                                     {
+                                        // Produto não está no estoque, pode ser excluído
                                         produtoRepository.Excluir(produtoParaExcluir);
                                         CarregarGrid();
                                         MessageBox.Show("Produto excluído com sucesso.");
                                     }
                                     else
                                     {
-                                        MessageBox.Show("Produto não encontrado para exclusão.");
+                                        MessageBox.Show("O produto ainda está no estoque e não pode ser excluído.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                                     }
                                 }
                                 else
                                 {
-                                    MessageBox.Show("Tipo de produto não encontrado.");
+                                    MessageBox.Show("Produto não encontrado para exclusão.");
                                 }
+
                             }
                         }
                     }

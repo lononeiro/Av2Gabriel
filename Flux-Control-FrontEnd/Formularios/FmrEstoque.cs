@@ -210,7 +210,7 @@ namespace Flux_Control_prototipo.Formularios
                                     estoqueRepository.Excluir(estoque);
                                     entradaRepository.Excluir(entrada);
 
-                                    MessageBox.Show("Produto excluído com sucesso.");
+                                    MessageBox.Show("Produto excluído com sucesso.", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     CarregaGrid();
                                 }
                                 else

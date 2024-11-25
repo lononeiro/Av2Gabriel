@@ -101,6 +101,12 @@ namespace FluxControl.Data.Repositories
                 .FirstOrDefault();
         }
 
+        public Estoque SelecionarProdutoPelaChave(int id)
+        {
+            return db.Estoques.FirstOrDefault(e => e.ProdutoIdProduto == id);
+
+        }
+
         public void AtualizarQuantidade(int idProduto, int quantidade)
         {
 

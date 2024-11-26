@@ -37,6 +37,7 @@
             panel3 = new Panel();
             panel2 = new Panel();
             label3 = new Label();
+            BtnCadastrar = new Button();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -115,6 +116,7 @@
             panel3.Anchor = AnchorStyles.None;
             panel3.BackColor = Color.White;
             panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(BtnCadastrar);
             panel3.Controls.Add(BtnLogin);
             panel3.Controls.Add(label1);
             panel3.Controls.Add(TxtEmail);
@@ -147,6 +149,21 @@
             label3.TabIndex = 0;
             label3.Text = "LOGIN";
             // 
+            // BtnCadastrar
+            // 
+            BtnCadastrar.Anchor = AnchorStyles.None;
+            BtnCadastrar.BackColor = Color.FromArgb(180, 37, 41);
+            BtnCadastrar.Cursor = Cursors.Hand;
+            BtnCadastrar.FlatStyle = FlatStyle.Popup;
+            BtnCadastrar.ForeColor = Color.Transparent;
+            BtnCadastrar.Location = new Point(42, 308);
+            BtnCadastrar.Name = "BtnCadastrar";
+            BtnCadastrar.Size = new Size(253, 31);
+            BtnCadastrar.TabIndex = 5;
+            BtnCadastrar.Text = "Cadastrar";
+            BtnCadastrar.UseVisualStyleBackColor = false;
+            BtnCadastrar.Click += BtnCadastrar_Click;
+            // 
             // FmrLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -177,5 +194,6 @@
         private Panel panel2;
         private Label label3;
         private Panel panel3;
+        private Button BtnCadastrar;
     }
 }

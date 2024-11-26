@@ -182,7 +182,7 @@
             Controls.Add(label1);
             Controls.Add(GrdUsuarios);
             Name = "FmrAlterarUsuarios";
-            Text = "FmrAlterarUsuarios";
+            Text = "Alterar Usuarios";
             ((System.ComponentModel.ISupportInitialize)GrdUsuarios).EndInit();
             ResumeLayout(false);
             PerformLayout();

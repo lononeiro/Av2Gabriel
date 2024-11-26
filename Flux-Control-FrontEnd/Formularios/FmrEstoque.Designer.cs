@@ -35,7 +35,7 @@
             BtnRegistrarEntrada = new Button();
             BtnRegistrarSaida = new Button();
             panel1 = new Panel();
-            button1 = new Button();
+            BtnGerirUsuario = new Button();
             BtnCadastrarProduto = new Button();
             Produto = new DataGridViewTextBoxColumn();
             Selecionar = new DataGridViewButtonColumn();
@@ -113,7 +113,7 @@
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             panel1.BackColor = Color.FromArgb(180, 37, 41);
             panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(BtnGerirUsuario);
             panel1.Controls.Add(BtnEmitirRelatorio);
             panel1.Controls.Add(BtnCadastrarProduto);
             panel1.Controls.Add(BtnRegistrarEntrada);
@@ -123,18 +123,18 @@
             panel1.Size = new Size(265, 641);
             panel1.TabIndex = 29;
             // 
-            // button1
+            // BtnGerirUsuario
             // 
-            button1.BackColor = Color.White;
-            button1.Cursor = Cursors.Hand;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(62, 436);
-            button1.Name = "button1";
-            button1.Size = new Size(142, 40);
-            button1.TabIndex = 31;
-            button1.Text = "Gerir Usuarios";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += BtnGerirUsuariosClick;
+            BtnGerirUsuario.BackColor = Color.White;
+            BtnGerirUsuario.Cursor = Cursors.Hand;
+            BtnGerirUsuario.FlatStyle = FlatStyle.Flat;
+            BtnGerirUsuario.Location = new Point(62, 436);
+            BtnGerirUsuario.Name = "BtnGerirUsuario";
+            BtnGerirUsuario.Size = new Size(142, 40);
+            BtnGerirUsuario.TabIndex = 31;
+            BtnGerirUsuario.Text = "Gerir Usuarios";
+            BtnGerirUsuario.UseVisualStyleBackColor = false;
+            BtnGerirUsuario.Click += BtnGerirUsuariosClick;
             // 
             // BtnCadastrarProduto
             // 
@@ -202,7 +202,7 @@
       //  private DataGridViewTextBoxColumn PrecoVenda;
     //    private DataGridViewButtonColumn Selecionar;
         private Button BtnCadastrarProduto;
-        private Button button1;
+        private Button BtnGerirUsuario;
         private DataGridViewTextBoxColumn Produto;
         //private DataGridViewTextBoxColumn Descricao;
         //private DataGridViewTextBoxColumn Quantidade;

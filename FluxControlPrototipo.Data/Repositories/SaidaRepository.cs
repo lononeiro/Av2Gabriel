@@ -37,7 +37,7 @@ namespace FluxControl.Data.Repositories
                 {
                     ProdutoIdProduto = produtoEstoque.ProdutoIdProduto,
                     DataSaida = DateTime.Now,
-                    PrecoSaida = precoComDesconto * quantidade, // Preço final com desconto aplicado
+                    PrecoSaida = precoUnitario * quantidade, // Preço final com desconto aplicado
                     QuantidadeSaida = quantidade,
                     LoteSaida = lote,
                     Desconto = desconto // Armazena o desconto aplicado

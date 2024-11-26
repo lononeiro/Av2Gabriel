@@ -27,7 +27,7 @@ namespace Flux_Control_prototipo.Formularios
         {
             if (UsuarioAtual.IsAdmin == false)
             {
-                BtnAlterarUsuarios.Enabled = false;
+                //BtnAlterarUsuarios.Enabled = false;
             }
         }
 

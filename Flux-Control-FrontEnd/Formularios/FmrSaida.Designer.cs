@@ -35,6 +35,7 @@
             TxtPrecoTotal = new TextBox();
             label4 = new Label();
             panel1 = new Panel();
+            TxtDesconto = new TextBox();
             label5 = new Label();
             label2 = new Label();
             TxtQuantidade = new TextBox();
@@ -44,7 +45,6 @@
             BtnCancelar = new Button();
             GrdEstoque = new DataGridView();
             idEstoque = new DataGridViewTextBoxColumn();
-            TxtDesconto = new TextBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)GrdEstoque).BeginInit();
@@ -124,14 +124,22 @@
             panel1.Size = new Size(284, 438);
             panel1.TabIndex = 23;
             // 
+            // TxtDesconto
+            // 
+            TxtDesconto.Location = new Point(7, 309);
+            TxtDesconto.Name = "TxtDesconto";
+            TxtDesconto.Size = new Size(100, 23);
+            TxtDesconto.TabIndex = 32;
+            TxtDesconto.Text = "0";
+            // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Location = new Point(3, 291);
             label5.Name = "label5";
-            label5.Size = new Size(57, 15);
+            label5.Size = new Size(78, 15);
             label5.TabIndex = 31;
-            label5.Text = "Desconto";
+            label5.Text = "Desconto (%)";
             // 
             // label2
             // 
@@ -218,13 +226,6 @@
             // 
             idEstoque.HeaderText = "idEstoque";
             idEstoque.Name = "idEstoque";
-            // 
-            // TxtDesconto
-            // 
-            TxtDesconto.Location = new Point(7, 309);
-            TxtDesconto.Name = "TxtDesconto";
-            TxtDesconto.Size = new Size(100, 23);
-            TxtDesconto.TabIndex = 32;
             // 
             // FmrSaida
             // 

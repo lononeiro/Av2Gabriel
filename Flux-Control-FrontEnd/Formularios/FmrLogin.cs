@@ -42,23 +42,23 @@ namespace Flux_Control_prototipo.Formularios
                 UsuarioAtual.IsAdmin = usuarioRepository.VerificaAdmin(usuario.Nome);
                 UsuarioAtual.UsuarioId = usuario.IdUsuario;
 
-                // Limpar os campos e retornar sucesso
                 TxtEmail.Clear();
                 TxtSenha.Clear();
+                this.Hide();
 
-                //this.DialogResult = DialogResult.OK; 
-
-                //this.Hide();
-
+                // Abrir a tela de estoque
                 FmrEstoque oFmr = new FmrEstoque();
-                oFmr.Show();
 
-                // Configura o evento FormClosed para reabrir o login quando o estoque for fechado
+                // Gerenciar o evento de fechamento da tela de estoque
                 oFmr.FormClosed += (s, args) =>
                 {
+                    // Ao fechar a tela de estoque, mostra novamente a tela de login
                     this.Show();
-                    TxtEmail.Focus();  // Foco no campo de e-mail ao reabrir o login
+                    TxtEmail.Focus(); // Focar no campo de email para facilitar o próximo login
                 };
+
+                // Exibe a tela de estoque
+                oFmr.ShowDialog();
 
             }
             else
@@ -82,6 +82,12 @@ namespace Flux_Control_prototipo.Formularios
 
         private void FmrLogin_Load(object sender, EventArgs e)
         {
+        }
+
+        private void BtnCadastrar_Click(object sender, EventArgs e)
+        {
+            FmrCadastrarUsuario ofmr = new FmrCadastrarUsuario();
+            ofmr.Show();
         }
     }
 }

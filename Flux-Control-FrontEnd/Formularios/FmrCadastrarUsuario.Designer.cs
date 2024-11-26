@@ -36,7 +36,6 @@
             BtnLogin = new Button();
             label1 = new Label();
             panel1 = new Panel();
-            BtnAlterarUsuarios = new Button();
             label5 = new Label();
             TxtNomeEmpresa = new TextBox();
             TxtConfirmaSenhaEmpresa = new TextBox();
@@ -128,7 +127,6 @@
             panel1.Anchor = AnchorStyles.None;
             panel1.BackColor = Color.White;
             panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(BtnAlterarUsuarios);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(TxtNomeEmpresa);
             panel1.Controls.Add(TxtConfirmaSenhaEmpresa);
@@ -140,19 +138,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(366, 392);
             panel1.TabIndex = 16;
-            // 
-            // BtnAlterarUsuarios
-            // 
-            BtnAlterarUsuarios.Anchor = AnchorStyles.None;
-            BtnAlterarUsuarios.BackColor = Color.Silver;
-            BtnAlterarUsuarios.FlatStyle = FlatStyle.Flat;
-            BtnAlterarUsuarios.Location = new Point(230, 364);
-            BtnAlterarUsuarios.Name = "BtnAlterarUsuarios";
-            BtnAlterarUsuarios.Size = new Size(131, 23);
-            BtnAlterarUsuarios.TabIndex = 18;
-            BtnAlterarUsuarios.Text = "Alterar usuarios";
-            BtnAlterarUsuarios.UseVisualStyleBackColor = false;
-            BtnAlterarUsuarios.Click += button1_Click;
             // 
             // label5
             // 
@@ -232,7 +217,6 @@
         private Label label4;
         private Label label5;
         private TextBox TxtNomeEmpresa;
-        private Button BtnAlterarUsuarios;
     }
 
 }

@@ -36,7 +36,7 @@ namespace Flux_Control_prototipo.Formularios
 
         private void BtnGerirUsuariosClick(object sender, EventArgs e)
         {
-            FmrCadastrarUsuario oFmr = new FmrCadastrarUsuario();
+            FmrAlterarUsuarios oFmr = new FmrAlterarUsuarios();
             oFmr.Show();
         }
 
@@ -145,6 +145,7 @@ namespace Flux_Control_prototipo.Formularios
             {
                 BtnCadastrarProduto.Enabled = false;
                 BtnEmitirRelatorio.Enabled = false;
+                BtnGerirUsuario.Enabled = false;
             }
 
         }

@@ -156,6 +156,7 @@
             // 
             // TxtValorLiquido
             // 
+            TxtValorLiquido.Enabled = false;
             TxtValorLiquido.Location = new Point(445, 89);
             TxtValorLiquido.Name = "TxtValorLiquido";
             TxtValorLiquido.Size = new Size(140, 23);
@@ -163,6 +164,7 @@
             // 
             // TxtValorBruto
             // 
+            TxtValorBruto.Enabled = false;
             TxtValorBruto.Location = new Point(445, 30);
             TxtValorBruto.Name = "TxtValorBruto";
             TxtValorBruto.Size = new Size(140, 23);
@@ -170,6 +172,7 @@
             // 
             // TxtQuantidadeVendida
             // 
+            TxtQuantidadeVendida.Enabled = false;
             TxtQuantidadeVendida.Location = new Point(607, 89);
             TxtQuantidadeVendida.Name = "TxtQuantidadeVendida";
             TxtQuantidadeVendida.Size = new Size(142, 23);
@@ -177,6 +180,7 @@
             // 
             // TxtProdutoVendido
             // 
+            TxtProdutoVendido.Enabled = false;
             TxtProdutoVendido.Location = new Point(607, 30);
             TxtProdutoVendido.Name = "TxtProdutoVendido";
             TxtProdutoVendido.Size = new Size(142, 23);

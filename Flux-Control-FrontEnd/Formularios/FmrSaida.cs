@@ -201,61 +201,79 @@ namespace Flux_Control_prototipo.Formularios
 
         private List<ProdutoComDesconto> produtosSelecionadosComDesconto = new List<ProdutoComDesconto>();
 
-        private void BtnAdicionar_Click(object sender, EventArgs e)
+    private void BtnAdicionar_Click(object sender, EventArgs e)
+    {
+        try
         {
-            try
+            if (produtoAtualSelecionado == null)
             {
-                if (produtoAtualSelecionado == null)
+                MessageBox.Show("Nenhum produto selecionado.");
+                return;
+            }
+
+            // Obter a quantidade informada na TextBox
+            if (!int.TryParse(TxtQuantidade.Text, out int quantidadeSaida) || quantidadeSaida <= 0)
+            {
+                MessageBox.Show("Por favor, insira uma quantidade válida.");
+                return;
+            }
+
+                if (Convert.ToDouble(TxtDesconto.Text) % 1 != 0)
                 {
-                    MessageBox.Show("Nenhum produto selecionado.");
+                    MessageBox.Show("Descontos com casas decimais não são permitidos. Insira um valor inteiro.", "Desconto Inválido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                int quantidadeSaida = Convert.ToInt32(TxtQuantidade.Text);
+                // Verificar se a quantidade solicitada está disponível no estoque
                 if (VerificaQuantidade(produtoAtualSelecionado.idEstoque, quantidadeSaida))
-                {
-                    double desconto = 0;
-
-                    if (!string.IsNullOrEmpty(TxtDesconto.Text))
-                    {
-                        desconto = Convert.ToDouble(TxtDesconto.Text);
-                        if (desconto < 0 || desconto > 100)
-                        {
-                            MessageBox.Show("O desconto deve estar entre 0 e 100%.");
-                            return;
-                        }
-                    }
-
-                    // Cria uma instância de ProdutoComDesconto e adiciona à lista de produtos selecionados
-                    var produtoComDesconto = new ProdutoComDesconto
-                    {
-                        Produto = produtoAtualSelecionado,
-                        Desconto = desconto
-                    };
-                    produtosSelecionadosComDesconto.Add(produtoComDesconto);
-
-                    // Atualiza o preço total com o desconto
-                    double precoComDesconto = produtoAtualSelecionado.PrecoVendaEstoque * (1 - desconto / 100);
-                    precoTotal += precoComDesconto * quantidadeSaida;
-                    AtualizarPrecoTotal();
-
-                    // Limpa os campos após adicionar
-                    produtoAtualSelecionado = null;
-                    TxtProduto.Clear();
-                    TxtQuantidade.Clear();
-                    TxtDesconto.Clear();
-                }
-                else
-                {
-                    MessageBox.Show($"Erro ao adicionar produto: Quantidade insuficiente no estoque.");
-                }
-            }
-            catch (Exception ex)
             {
-                MessageBox.Show($"Erro ao adicionar produto: {ex.Message}");
+                double desconto = 0;
+
+                // Obter o desconto informado
+                if (!string.IsNullOrEmpty(TxtDesconto.Text))
+                {
+                    desconto = Convert.ToDouble(TxtDesconto.Text);
+                    if (desconto < 0 || desconto > 100)
+                    {
+                        MessageBox.Show("O desconto deve estar entre 0 e 100%.");
+                        return;
+                    }
+                }
+
+                // Criar um objeto com a quantidade e o desconto informados
+                var produtoComDesconto = new ProdutoComDesconto
+                {
+                    Produto = produtoAtualSelecionado,
+                    Desconto = desconto
+                };
+
+                // Atribuir a quantidade de saída informada pelo usuário
+                produtoComDesconto.Produto.QuantidadeEstoque = quantidadeSaida;
+
+                // Adicionar à lista de produtos selecionados
+                produtosSelecionadosComDesconto.Add(produtoComDesconto);
+
+                // Atualizar o preço total considerando o desconto
+                double precoComDesconto = produtoAtualSelecionado.PrecoVendaEstoque * (1 - desconto / 100);
+                precoTotal += precoComDesconto * quantidadeSaida;
+                AtualizarPrecoTotal();
+
+                // Limpar campos após adicionar
+                produtoAtualSelecionado = null;
+                TxtProduto.Clear();
+                TxtQuantidade.Clear();
+                TxtDesconto.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Quantidade insuficiente no estoque.");
             }
         }
-
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Erro ao adicionar produto: {ex.Message}");
+        }
+    }
         //private void SalvarSaida()
         //{
         //    var desconto = Convert.ToInt64(TxtDesconto.Text);
@@ -293,12 +311,18 @@ namespace Flux_Control_prototipo.Formularios
                 foreach (var item in produtosSelecionadosComDesconto)
                 {
                     string nomeProduto = produtoRepository.SelecionarNomePelaChave(item.Produto.ProdutoIdProduto);
+                    var idproduto = estoqueRepository.SelecionarPelaChave(item.Produto.idEstoque);
+                   
+                    saidaRepository.RegistrarSaida(
+                        item.Produto.idEstoque,
+                        item.Produto.QuantidadeEstoque, 
+                        idproduto.PrecoVendaEstoque, 
+                        item.Produto.LoteEstoque,
+                        item.Desconto 
+                    );
 
-                    // Registra a saída para o produto com o desconto específico
-                    saidaRepository.RegistrarSaida(item.Produto.idEstoque, item.Produto.QuantidadeEstoque, item.Produto.PrecoVendaEstoque, item.Produto.LoteEstoque, item.Desconto);
-
-                    // Adiciona o produto e o desconto no relatório
-                    produtosSaida.AppendLine($"{nomeProduto} - Quantidade: {item.Produto.QuantidadeEstoque} - Desconto: {item.Desconto:F2}%");
+                    
+                    produtosSaida.AppendLine($"{nomeProduto} - Quantidade: {item.Produto.QuantidadeEstoque} - Preço Original: {item.Produto.PrecoVendaEstoque:C} - Desconto: {item.Desconto:F2}%");
                 }
 
                 MessageBox.Show(produtosSaida.ToString(), "Registro de Saída");
@@ -308,13 +332,12 @@ namespace Flux_Control_prototipo.Formularios
                 MessageBox.Show($"Erro ao registrar saída: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            // Limpa as seleções e atualiza o grid
+            
             produtosSelecionadosComDesconto.Clear();
             precoTotal = 0;
             AtualizarPrecoTotal();
             CarregaGrid();
         }
-
         private void AtualizarPrecoTotal()
         {
             TxtPrecoTotal.Text = $"Preço Total: {precoTotal:C}";

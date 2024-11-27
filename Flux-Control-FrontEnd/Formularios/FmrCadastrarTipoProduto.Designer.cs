@@ -131,7 +131,7 @@
             Controls.Add(label1);
             Controls.Add(GrdProdutos);
             Name = "FmrCadastrarTipoProduto";
-            Text = "Tipo de Produto";
+            Text = "Tipo de produto";
             ((System.ComponentModel.ISupportInitialize)GrdProdutos).EndInit();
             ResumeLayout(false);
             PerformLayout();

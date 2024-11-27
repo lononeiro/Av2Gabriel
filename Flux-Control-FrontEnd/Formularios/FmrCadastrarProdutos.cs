@@ -50,16 +50,21 @@ namespace Flux_Control_prototipo.Formularios
                 return;
             }
 
+            if (cmbTipoProduto.SelectedValue == null || Convert.ToInt32(cmbTipoProduto.SelectedValue) <= 0)
+            {
+                MessageBox.Show("Por favor, selecione um tipo de produto válido.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
             if (_Incluir)
             {
-                try
-                {
                     if (ProdutoExiste(TxtNome.Text))
                     {
                         MessageBox.Show("Já existe um produto com esse nome. Por favor, escolha outro nome.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
                     }
+                try
+                {
 
                     ProdutoRepo novoProduto = new ProdutoRepo
                     {
@@ -77,10 +82,17 @@ namespace Flux_Control_prototipo.Formularios
             }
             else
             {
+                try
+                {
                 oProdutoSelecionado.Nome = TxtNome.Text;
                 oProdutoSelecionado.TipoProdutoIdTipoProduto = Convert.ToInt32(cmbTipoProduto.SelectedValue);
                 produtoRepository.Alterar(oProdutoSelecionado);
-                _Incluir = true;
+                    _Incluir = true; 
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao alterar o produto: {ex.Message}");
+                }
             }
 
             LimparControles();

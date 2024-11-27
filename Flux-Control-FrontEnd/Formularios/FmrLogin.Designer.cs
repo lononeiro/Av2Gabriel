@@ -35,9 +35,9 @@
             label2 = new Label();
             panel1 = new Panel();
             panel3 = new Panel();
+            BtnCadastrar = new Button();
             panel2 = new Panel();
             label3 = new Label();
-            BtnCadastrar = new Button();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -65,7 +65,7 @@
             BtnLogin.Name = "BtnLogin";
             BtnLogin.Size = new Size(253, 31);
             BtnLogin.TabIndex = 1;
-            BtnLogin.Text = "Logar";
+            BtnLogin.Text = "Entrar";
             BtnLogin.UseVisualStyleBackColor = false;
             BtnLogin.Click += BtnLogin_Click;
             // 
@@ -127,6 +127,21 @@
             panel3.Size = new Size(366, 358);
             panel3.TabIndex = 8;
             // 
+            // BtnCadastrar
+            // 
+            BtnCadastrar.Anchor = AnchorStyles.None;
+            BtnCadastrar.BackColor = Color.FromArgb(180, 37, 41);
+            BtnCadastrar.Cursor = Cursors.Hand;
+            BtnCadastrar.FlatStyle = FlatStyle.Popup;
+            BtnCadastrar.ForeColor = Color.Transparent;
+            BtnCadastrar.Location = new Point(42, 308);
+            BtnCadastrar.Name = "BtnCadastrar";
+            BtnCadastrar.Size = new Size(253, 31);
+            BtnCadastrar.TabIndex = 5;
+            BtnCadastrar.Text = "Cadastrar";
+            BtnCadastrar.UseVisualStyleBackColor = false;
+            BtnCadastrar.Click += BtnCadastrar_Click;
+            // 
             // panel2
             // 
             panel2.Anchor = AnchorStyles.None;
@@ -148,21 +163,6 @@
             label3.Size = new Size(95, 37);
             label3.TabIndex = 0;
             label3.Text = "LOGIN";
-            // 
-            // BtnCadastrar
-            // 
-            BtnCadastrar.Anchor = AnchorStyles.None;
-            BtnCadastrar.BackColor = Color.FromArgb(180, 37, 41);
-            BtnCadastrar.Cursor = Cursors.Hand;
-            BtnCadastrar.FlatStyle = FlatStyle.Popup;
-            BtnCadastrar.ForeColor = Color.Transparent;
-            BtnCadastrar.Location = new Point(42, 308);
-            BtnCadastrar.Name = "BtnCadastrar";
-            BtnCadastrar.Size = new Size(253, 31);
-            BtnCadastrar.TabIndex = 5;
-            BtnCadastrar.Text = "Cadastrar";
-            BtnCadastrar.UseVisualStyleBackColor = false;
-            BtnCadastrar.Click += BtnCadastrar_Click;
             // 
             // FmrLogin
             // 

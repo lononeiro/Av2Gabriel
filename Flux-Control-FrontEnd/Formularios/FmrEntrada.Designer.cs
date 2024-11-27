@@ -283,7 +283,7 @@
             Controls.Add(panel1);
             Controls.Add(panel2);
             Name = "FmrEntrada";
-            Text = "Cadastrar Produtos";
+            Text = "Registrar entrada";
             Load += FmrEntrada_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

@@ -70,7 +70,7 @@
             label3.Name = "label3";
             label3.Size = new Size(230, 37);
             label3.TabIndex = 2;
-            label3.Text = "REGISTRAR SAIDA";
+            label3.Text = "REGISTRAR SAÍDA";
             // 
             // label1
             // 
@@ -242,7 +242,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "FmrSaida";
-            Text = "Gerenciar Saida";
+            Text = "Registrar saída";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel1.ResumeLayout(false);

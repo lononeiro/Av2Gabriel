@@ -8,8 +8,12 @@ namespace FluxControl.Data.Model
 {
     public class ProdutoComDesconto
     {
-        public Estoque Produto { get; set; }
-        public double Desconto { get; set; }
+
+            public Estoque Produto { get; set; }
+            public double Desconto { get; set; }
+            public int QuantidadeSaida { get; set; } // Nova propriedade
+        
+
     }
 
 }

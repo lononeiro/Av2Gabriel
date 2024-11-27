@@ -104,7 +104,7 @@
             BtnRegistrarSaida.Name = "BtnRegistrarSaida";
             BtnRegistrarSaida.Size = new Size(142, 40);
             BtnRegistrarSaida.TabIndex = 4;
-            BtnRegistrarSaida.Text = "Registrar Saida";
+            BtnRegistrarSaida.Text = "Registrar Saída";
             BtnRegistrarSaida.UseVisualStyleBackColor = false;
             BtnRegistrarSaida.Click += BtnRegistrarSaida_Click;
             // 
@@ -132,7 +132,7 @@
             BtnGerirUsuario.Name = "BtnGerirUsuario";
             BtnGerirUsuario.Size = new Size(142, 40);
             BtnGerirUsuario.TabIndex = 31;
-            BtnGerirUsuario.Text = "Gerir Usuarios";
+            BtnGerirUsuario.Text = "Gerir Usuários";
             BtnGerirUsuario.UseVisualStyleBackColor = false;
             BtnGerirUsuario.Click += BtnGerirUsuariosClick;
             // 
@@ -181,7 +181,7 @@
             Controls.Add(GrdEstoque);
             Controls.Add(panel1);
             Name = "FmrEstoque";
-            Text = "Menu Produtos";
+            Text = "Menu produtos";
             Load += FmrGerenciarProdutos_Load;
             ((System.ComponentModel.ISupportInitialize)GrdEstoque).EndInit();
             panel1.ResumeLayout(false);

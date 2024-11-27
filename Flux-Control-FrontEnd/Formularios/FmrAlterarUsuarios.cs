@@ -24,12 +24,12 @@ namespace Flux_Control_prototipo.Formularios
             this.Close();
         }
 
-        private bool UsuarioExiste(string nomeUsuario)
+        private bool UsuarioExiste(string EmailUsuario)
         {
             try
             {
                 List<Usuario> usuarios = usuarioRepository.SelecionarTodos();
-                return usuarios.Any(u => u.Nome.Equals(nomeUsuario, StringComparison.OrdinalIgnoreCase));
+                return usuarios.Any(u => u.Email.Equals(EmailUsuario, StringComparison.OrdinalIgnoreCase));
             }
             catch (Exception ex)
             {
@@ -49,6 +49,7 @@ namespace Flux_Control_prototipo.Formularios
                     return;
                 }
 
+
                 if (_Incluir)
                 {
                     if (UsuarioExiste(TxtNome.Text))
@@ -56,6 +57,7 @@ namespace Flux_Control_prototipo.Formularios
                         MessageBox.Show("Já existe um usuário com esse nome. Por favor, escolha outro nome.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
                     }
+
                     if (CheckBoxAdmin.Checked)
                     {
                         bool admin = true;

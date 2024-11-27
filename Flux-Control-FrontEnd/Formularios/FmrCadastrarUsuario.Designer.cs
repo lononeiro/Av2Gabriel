@@ -190,7 +190,7 @@
             Controls.Add(label1);
             Controls.Add(panel1);
             Name = "FmrCadastrarUsuario";
-            Text = "Cadastrar Usuario";
+            Text = "Cadastrar usuário";
             Load += FmrCadastrarUsuario_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

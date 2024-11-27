@@ -49,14 +49,14 @@ namespace Flux_Control_prototipo.Formularios
                     return;
                 }
 
+
+                if (_Incluir)
+                {
                 if (ProdutoExiste(TxtNome.Text))
                 {
                     MessageBox.Show("Já existe um tipo de produto com esse nome. Por favor, escolha outro nome.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-
-                if (_Incluir)
-                {
                     TipoProduto novoProdutoTipo = new TipoProduto { Nome = TxtNome.Text };
                     produtoTipoRepository.Incluir(novoProdutoTipo);
                 }

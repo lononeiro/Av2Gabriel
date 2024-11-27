@@ -437,3 +437,4 @@ C:\Users\Coord.Info\Desktop\Lucas\Av2Gabriel\Flux-Control-FrontEnd\obj\Debug\net
 C:\Users\Coord.Info\Desktop\Lucas\Av2Gabriel\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux Control.genruntimeconfig.cache
 C:\Users\Coord.Info\Desktop\Lucas\Av2Gabriel\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\ref\Flux Control.dll
 C:\Users\Coord.Info\Desktop\Lucas\Av2Gabriel\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrAlterarUsuarios.resources
+D:\pastas do lucas\arquivos de documewntos\c#\FluxControl\Flux-Control-FrontEnd\obj\Debug\net8.0-windows\Flux_Control_prototipo.Formularios.FmrAlterarUsuarios.resources

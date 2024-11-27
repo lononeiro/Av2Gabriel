@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControl.Test\\FluxControl.Test.csproj": {}
+    "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\FluxControl.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControl.Test\\FluxControl.Test.csproj": {
+    "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\FluxControl.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControl.Test\\FluxControl.Test.csproj",
+        "projectUniqueName": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\FluxControl.Test.csproj",
         "projectName": "FluxControl.Test",
-        "projectPath": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControl.Test\\FluxControl.Test.csproj",
-        "packagesPath": "C:\\Users\\Coord.Info\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControl.Test\\obj\\",
+        "projectPath": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\FluxControl.Test.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControl.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Coord.Info\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControlPrototipo.Data\\FluxControl.Data.csproj": {
-                "projectPath": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControlPrototipo.Data\\FluxControl.Data.csproj"
+              "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\FluxControl.Data.csproj": {
+                "projectPath": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\FluxControl.Data.csproj"
               }
             }
           }
@@ -86,21 +91,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControlPrototipo.Data\\FluxControl.Data.csproj": {
+    "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\FluxControl.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControlPrototipo.Data\\FluxControl.Data.csproj",
+        "projectUniqueName": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\FluxControl.Data.csproj",
         "projectName": "FluxControl.Data",
-        "projectPath": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControlPrototipo.Data\\FluxControl.Data.csproj",
-        "packagesPath": "C:\\Users\\Coord.Info\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Coord.Info\\Desktop\\Lucas\\Av2Gabriel\\FluxControlPrototipo.Data\\obj\\",
+        "projectPath": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\FluxControl.Data.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\pastas do lucas\\arquivos de documewntos\\c#\\FluxControl\\FluxControlPrototipo.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Coord.Info\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,6 +117,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -168,7 +178,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

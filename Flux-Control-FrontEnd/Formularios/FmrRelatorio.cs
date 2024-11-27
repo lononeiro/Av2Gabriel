@@ -70,16 +70,20 @@ namespace Flux_Control_prototipo.Formularios
                 .Where(s => incluirTodosProdutos || produtosSelecionados.Contains(s.ProdutoIdProduto))
                 .ToList();
 
-            // Calcular o preço total das saídas com o desconto aplicado
-            double precoTotalComDesconto = saidas.Sum(s => s.PrecoSaida - (s.PrecoSaida * (s.Desconto / 100.0)));
+            // Calcular os valores necessários
+            double valorCompraTotal = entradas.Sum(e => e.PrecoCompra * e.QuantidadeEntrada); // Valor gasto em compras
+            double valorVendaTotal = saidas.Sum(s => s.PrecoSaida - (s.PrecoSaida * (s.Desconto / 100.0))); // Valor obtido nas vendas
+            double valorLucro = valorVendaTotal - valorCompraTotal; // Lucro obtido
 
-            // Calcular o lucro total considerando o desconto
-            double lucroTotal = precoTotalComDesconto - entradas.Sum(e => e.PrecoCompra * e.QuantidadeEntrada);
+            // Exibir os valores nos campos
+            TxtValorCompraTotal.Text = valorCompraTotal.ToString("C");
+            TxtValorVendaTotal.Text = valorVendaTotal.ToString("C");
+            TxtValorLucro.Text = valorLucro.ToString("C");
 
             // Produto mais vendido
             var produtoMaisVendido = saidas
                 .GroupBy(s => s.ProdutoIdProduto)
-                .OrderByDescending(g => g.Sum(s => g.Sum(s => s.QuantidadeSaida)))
+                .OrderByDescending(g => g.Sum(s => s.QuantidadeSaida))
                 .Select(g => new
                 {
                     IdProduto = g.Key,
@@ -88,16 +92,9 @@ namespace Flux_Control_prototipo.Formularios
                 })
                 .FirstOrDefault();
 
-            // Exibir os dados na MessageBox
-            MessageBox.Show($"Lucro Total (com desconto): {lucroTotal:C}\n" +
-                            $"Preço Total com Desconto: {precoTotalComDesconto:C}\n" +
-                            $"Produto Mais Vendido: {produtoMaisVendido?.NomeProduto} ({produtoMaisVendido?.QuantidadeVendida} unidades)",
-                            "Análise do Relatório", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+            // Exibir o produto mais vendido
             TxtProdutoVendido.Text = produtoMaisVendido?.NomeProduto ?? "Nenhum";
             TxtQuantidadeVendida.Text = Convert.ToString(produtoMaisVendido?.QuantidadeVendida ?? 0);
-            TxtValorBruto.Text = precoTotalComDesconto.ToString("C");
-            TxtValorLiquido.Text = lucroTotal.ToString("C");
 
             // Carregar os dados nos grids
             var entradasDisplay = entradas.Select(e => new
@@ -139,7 +136,7 @@ namespace Flux_Control_prototipo.Formularios
             grdSaidas.Columns["Data"].HeaderText = "Data";
             grdSaidas.Columns["Quantidade"].HeaderText = "Quantidade";
             grdSaidas.Columns["PrecoUnitario"].HeaderText = "Preço Unitário";
-            grdSaidas.Columns["Desconto"].HeaderText = "Desconto (%)"; // Configurar a coluna de desconto
+            grdSaidas.Columns["Desconto"].HeaderText = "Desconto (%)";
             grdSaidas.Columns["PrecoTotal"].HeaderText = "Preço Total (Descontado)";
         }
         private void ConfigurarGrids()
